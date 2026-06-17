@@ -295,11 +295,6 @@ class _PrinterSettingsPageState extends State<PrinterSettingsPage> {
     _onChange();
   }
 
-  void _onProfileChanged(String? value) {
-    value != null ? setState(() => _printerSettings.profile = value) : null;
-    _onChange();
-  }
-
   void _onPrintRestaurantDetailsChanged(value) {
     value != null
         ? setState(() => _printerSettings.printRestaurantDetails = value)

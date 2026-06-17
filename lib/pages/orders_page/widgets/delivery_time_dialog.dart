@@ -5,7 +5,6 @@ import 'package:flutter/material.dart';
 import '/models/full_order.dart';
 import '/util.dart';
 import '../bloc/orders_bloc.dart';
-import 'text_badge.dart';
 
 class DeliveryTimeDialog extends StatelessWidget {
   final FullOrder order;

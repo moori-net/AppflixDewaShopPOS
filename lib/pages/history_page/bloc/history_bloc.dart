@@ -20,8 +20,9 @@ class OrderHistoryBloc extends Bloc<OrderHistoryEvent, OrderHistoryState> {
     if (shopId == null) {
       _log.info('No shopId found in settings');
       _repository.getShops().then((value) {
-        final shop =
-            value.where((data) => data.attributes?.isDefault ?? false).first;
+        final shop = value.firstWhere(
+              (data) => data.attributes?.isDefault ?? false,
+        );
         _settings.shopId = shop.id;
       });
     }
@@ -40,7 +41,9 @@ class OrderHistoryBloc extends Bloc<OrderHistoryEvent, OrderHistoryState> {
         endDate: state.endDate,
       );
 
-      orders.sort((a, b) => b.order!.orderDateTime.compareTo(a.order!.orderDateTime));
+      orders.sort(
+            (a, b) => b.order!.orderDateTime.compareTo(a.order!.orderDateTime),
+      );
 
       emit(state.copyWith(orders: orders, isLoading: false));
     });
@@ -53,23 +56,15 @@ class OrderHistoryBloc extends Bloc<OrderHistoryEvent, OrderHistoryState> {
     on<PrintCurrentHistoryState>((event, emit) async {
       emit(state.copyWith(isPrinting: true));
 
-      DewaShop? shop;
+      final shop = await _getShop(emit);
 
-      try {
-        shop = await _repository.getDewaShop(shopId!);
-      } catch (e) {
-        _log.severe('Failed to get shop', e);
-        try {
-          shop = await _repository.getDewaShop(shopId!);
-        } catch (e) {
-          _log.severe('Failed to get shop', e);
-          emit(state.copyWith(isPrinting: false, error: e.toString()));
-        }
+      if (shop == null) {
+        return;
       }
 
       final hasPrinted = await IntervalPrintJob(
         state.orders,
-        shop!,
+        shop,
         startDate: state.startDate,
         endDate: state.endDate,
       ).print();
@@ -77,11 +72,16 @@ class OrderHistoryBloc extends Bloc<OrderHistoryEvent, OrderHistoryState> {
       debugPrint('hasPrinted: $hasPrinted');
 
       if (!hasPrinted) {
-        emit(state.copyWith(
+        emit(
+          state.copyWith(
             isPrinting: false,
-            error: 'Drucker nicht erreichbar, versuche erneut'));
+            error: 'Drucker nicht erreichbar, versuche erneut',
+          ),
+        );
+
         await Future.delayed(const Duration(seconds: 1));
-        emit(state.copyWith(isPrinting: true, error: null));
+
+        emit(state.copyWith(isPrinting: true));
 
         final hasPrintedSecond = await IntervalPrintJob(
           state.orders,
@@ -89,16 +89,23 @@ class OrderHistoryBloc extends Bloc<OrderHistoryEvent, OrderHistoryState> {
           startDate: state.startDate,
           endDate: state.endDate,
         ).print();
+
         debugPrint('hasPrintedSecond: $hasPrintedSecond');
 
         if (!hasPrintedSecond) {
-          if (!emit.isDone) return;
+          if (emit.isDone) {
+            return;
+          }
+
           emit(
             state.copyWith(
-                isPrinting: false,
-                error:
-                    'Drucker nicht erreichbar. Bitte stellen Sie sicher, dass Bluetooth eingeschaltet ist.'),
+              isPrinting: false,
+              error:
+              'Drucker nicht erreichbar. Bitte stellen Sie sicher, dass Bluetooth eingeschaltet ist.',
+            ),
           );
+
+          return;
         }
       }
 
@@ -108,75 +115,113 @@ class OrderHistoryBloc extends Bloc<OrderHistoryEvent, OrderHistoryState> {
     on<PrintBill>((event, emit) async {
       emit(state.copyWith(isPrinting: true));
 
-      // get order by id from state
       FullOrder? order;
-      try {
-        order = state.orders
-            .singleWhere((element) => element.orderId == event.orderId);
-      } catch (e) {
-        emit(state.copyWith(
-            isPrinting: false, error: 'Bestellung nicht gefunden'));
-      }
 
-      if (order == null) {
-        emit(state.copyWith(
-            isPrinting: false, error: 'Bestellung nicht gefunden'));
+      try {
+        order = state.orders.singleWhere(
+              (element) => element.orderId == event.orderId,
+        );
+      } catch (e) {
+        emit(
+          state.copyWith(
+            isPrinting: false,
+            error: 'Bestellung nicht gefunden',
+          ),
+        );
         return;
       }
 
-      DewaShop? shop;
+      final shop = await _getShop(emit);
 
-      try {
-        shop = await _repository.getDewaShop(shopId!);
-      } catch (e) {
-        _log.severe('Failed to get shop', e);
-        try {
-          shop = await _repository.getDewaShop(shopId!);
-        } catch (e) {
-          _log.severe('Failed to get shop', e);
-          emit(state.copyWith(isPrinting: false, error: e.toString()));
-        }
+      if (shop == null) {
+        return;
       }
 
-      final hasPrinted = await BillPrintJob(order, shop!).print();
+      // ignore: deprecated_member_use_from_same_package
+      final hasPrinted = await BillPrintJob(order, shop).print();
 
       debugPrint('hasPrinted: $hasPrinted');
 
       if (!hasPrinted) {
-        emit(state.copyWith(
+        emit(
+          state.copyWith(
             isPrinting: false,
-            error: 'Drucker nicht erreichbar, versuche erneut'));
-        await Future.delayed(const Duration(seconds: 1));
-        emit(state.copyWith(isPrinting: true, error: null));
+            error: 'Drucker nicht erreichbar, versuche erneut',
+          ),
+        );
 
+        await Future.delayed(const Duration(seconds: 1));
+
+        emit(state.copyWith(isPrinting: true));
+
+        // ignore: deprecated_member_use_from_same_package
         final hasPrintedSecond = await BillPrintJob(order, shop).print();
+
         debugPrint('hasPrintedSecond: $hasPrintedSecond');
 
         if (!hasPrintedSecond) {
-          if (!emit.isDone) return;
+          if (emit.isDone) {
+            return;
+          }
 
-          emit(state.copyWith(
+          emit(
+            state.copyWith(
               isPrinting: false,
               error:
-                  'Drucker nicht erreichbar. Bitte stellen Sie sicher, dass Bluetooth eingeschaltet ist.'));
+              'Drucker nicht erreichbar. Bitte stellen Sie sicher, dass Bluetooth eingeschaltet ist.',
+            ),
+          );
+
+          return;
         }
-        emit(state.copyWith(isPrinting: false, error: null));
       }
 
-      emit(state.copyWith(isPrinting: false, error: null));
+      emit(state.copyWith(isPrinting: false));
     });
 
     on<SwitchRangeMode>((event, emit) {
-      emit(state.copyWith(
-        showRange: !state.showRange,
-        endDate: DateTime(state.startDate!.year, state.startDate!.month,
-            state.startDate!.day, 23, 59, 59),
-      ));
+      emit(
+        state.copyWith(
+          showRange: !state.showRange,
+          endDate: DateTime(
+            state.startDate!.year,
+            state.startDate!.month,
+            state.startDate!.day,
+            23,
+            59,
+            59,
+          ),
+        ),
+      );
+
       add(RefreshOrderHistory());
     });
   }
 
   String? get shopId => _settings.shopId;
+
+  Future<DewaShop?> _getShop(Emitter<OrderHistoryState> emit) async {
+    try {
+      return await _repository.getDewaShop(shopId!);
+    } catch (e) {
+      _log.severe('Failed to get shop', e);
+
+      try {
+        return await _repository.getDewaShop(shopId!);
+      } catch (e) {
+        _log.severe('Failed to get shop', e);
+
+        emit(
+          state.copyWith(
+            isPrinting: false,
+            error: e.toString(),
+          ),
+        );
+
+        return null;
+      }
+    }
+  }
 
   @override
   Future<void> close() {
@@ -196,14 +241,16 @@ class OrderHistoryBloc extends Bloc<OrderHistoryEvent, OrderHistoryState> {
 
   void onRefresh() => add(RefreshOrderHistory());
 
-  void onSetDateRange(DateTime from, DateTime to) =>
-      add(SetDateRange(from: from, to: to));
+  void onSetDateRange(DateTime from, DateTime to) {
+    add(SetDateRange(from: from, to: to));
+  }
 
   void onSwitchRangeMode() => add(SwitchRangeMode());
 
   @override
   void onTransition(
-      Transition<OrderHistoryEvent, OrderHistoryState> transition) {
+      Transition<OrderHistoryEvent, OrderHistoryState> transition,
+      ) {
     _log.fine('nextState: ${transition.nextState}');
     super.onTransition(transition);
   }
@@ -235,6 +282,7 @@ class OrderHistoryState {
 
   factory OrderHistoryState.initial() {
     final now = DateTime.now();
+
     return OrderHistoryState(
       startDate: DateTime(now.year, now.month, now.day),
       endDate: DateTime(now.year, now.month, now.day, 23, 59, 59),
@@ -262,14 +310,14 @@ class OrderHistoryState {
   }
 
   Map<String, dynamic> toJson() => {
-        'orders': orders,
-        'startDate': startDate,
-        'endDate': endDate,
-        'isLoading': isLoading,
-        'isPrinting': isPrinting,
-        'showRange': showRange,
-        'error': error,
-      };
+    'orders': orders,
+    'startDate': startDate,
+    'endDate': endDate,
+    'isLoading': isLoading,
+    'isPrinting': isPrinting,
+    'showRange': showRange,
+    'error': error,
+  };
 
   @override
   String toString() => 'OrderHistoryState(${toJson()})';
@@ -278,24 +326,33 @@ class OrderHistoryState {
 class PrintBill extends OrderHistoryEvent {
   final String orderId;
 
-  PrintBill(this.orderId);
+  const PrintBill(this.orderId);
 
   @override
   String toString() => 'PrintBill($orderId)';
 }
 
-class PrintCurrentHistoryState extends OrderHistoryEvent {}
+class PrintCurrentHistoryState extends OrderHistoryEvent {
+  const PrintCurrentHistoryState();
+}
 
-class RefreshOrderHistory extends OrderHistoryEvent {}
+class RefreshOrderHistory extends OrderHistoryEvent {
+  const RefreshOrderHistory();
+}
 
 class SetDateRange extends OrderHistoryEvent {
   final DateTime from;
   final DateTime to;
 
-  const SetDateRange({required this.from, required this.to});
+  const SetDateRange({
+    required this.from,
+    required this.to,
+  });
 
   @override
   String toString() => 'SetDateRange($from, $to)';
 }
 
-class SwitchRangeMode extends OrderHistoryEvent {}
+class SwitchRangeMode extends OrderHistoryEvent {
+  const SwitchRangeMode();
+}

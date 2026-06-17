@@ -9,12 +9,13 @@ String formatPrice(num price) {
   } else if (price is double) {
     return '${price.toStringAsFixed(2).replaceAll('.', ',')}€';
   }
+
   return '${price.toString()}€';
 }
 
 String cleanupWhitespace(String value) {
-  final _whitespaceRE = RegExp(r"\s+");
-  return value.replaceAll(_whitespaceRE, ' ');
+  final whitespaceRegex = RegExp(r'\s+');
+  return value.replaceAll(whitespaceRegex, ' ');
 }
 
 Future<T?> showAnimatedDialog<T extends Object>({
@@ -25,15 +26,23 @@ Future<T?> showAnimatedDialog<T extends Object>({
   return showGeneralDialog<T>(
     context: context,
     barrierColor: barrierColor,
-    pageBuilder: (BuildContext context, Animation<double> animation,
-            Animation<double> secondaryAnimation) =>
+    pageBuilder: (
+        BuildContext context,
+        Animation<double> animation,
+        Animation<double> secondaryAnimation,
+        ) =>
         Container(),
     transitionDuration: const Duration(milliseconds: 250),
     barrierDismissible: true,
     barrierLabel: 'Dismiss',
-    transitionBuilder: (BuildContext context, Animation<double> animation,
-        Animation<double> secondaryAnimation, Widget widget) {
+    transitionBuilder: (
+        BuildContext context,
+        Animation<double> animation,
+        Animation<double> secondaryAnimation,
+        Widget widget,
+        ) {
       final curvedValue = Curves.easeInOutSine.transform(animation.value) - 1.0;
+
       return Transform(
         transform: Matrix4.translationValues(0.0, curvedValue * 512.0, 0.0),
         child: Opacity(

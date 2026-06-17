@@ -69,9 +69,11 @@ class _LoginPageState extends LoginState<LoginPage> {
                         initialValue: password,
                         onChanged: (value) => password = value,
                         obscureText: !passwordVisible,
-                        decoration:
-                        const InputDecoration(labelText: 'Passwort'),
-                        validator: (String? value) => value?.isNotEmpty ?? false
+                        decoration: const InputDecoration(
+                          labelText: 'Passwort',
+                        ),
+                        validator: (String? value) =>
+                        value?.isNotEmpty ?? false
                             ? null
                             : 'Bitte geben Sie ein Passwort ein',
                       ),
@@ -88,7 +90,8 @@ class _LoginPageState extends LoginState<LoginPage> {
                                 passwordVisible
                                     ? Icons.remove_red_eye_rounded
                                     : Icons.remove_red_eye_outlined,
-                                color: Theme.of(context).colorScheme.onBackground,
+                                color:
+                                Theme.of(context).colorScheme.onBackground,
                                 size: 24.0,
                               ),
                             ),
@@ -107,27 +110,23 @@ class _LoginPageState extends LoginState<LoginPage> {
               ),
               visualDensity: VisualDensity.compact,
               value: rememberLogin,
-              onChanged: (value) =>
-                  setState(() => rememberLogin = value ?? false),
+              onChanged: (value) {
+                setState(() => rememberLogin = value ?? false);
+              },
               title: const Text('Login merken'),
             ),
             Align(
               alignment: Alignment.centerRight,
               child: Padding(
                 padding: const EdgeInsets.symmetric(
-                    horizontal: 16.0, vertical: 16.0),
+                  horizontal: 16.0,
+                  vertical: 16.0,
+                ),
                 child: ElevatedButton(
                   onPressed: onSubmitUser,
                   child: const Text('Anmelden'),
                 ),
               ),
-            ),
-            const SizedBox(height: 16.0),
-            ElevatedButton(
-              onPressed: () {
-                Navigator.of(context).pushReplacementNamed('/qr-scanner');
-              },
-              child: const Text('Zum QR-Code Scanner wechseln'),
             ),
           ],
         ),
