@@ -1,0 +1,3544 @@
+{
+    "data": [
+        {
+            "id": "c736ca99f0c97abe27218c0882a3952c",
+            "type": "dewa_shop",
+            "attributes": {
+                "mediaId": "817a88de3d764685ba359eb5c452e28b",
+                "categoryId": null,
+                "countryId": null,
+                "active": true,
+                "isOpen": true,
+                "searchPortalActive": true,
+                "isDefault": true,
+                "deliveryActive": true,
+                "collectActive": true,
+                "isLimit": false,
+                "autoLocation": true,
+                "executiveDirector": "Max Mustermann",
+                "placeOfFulfillment": "Musterstadt",
+                "placeOfJurisdiction": "Musterstadt",
+                "bankBic": "BYLADEM1001",
+                "bankIban": "DE12500105170648489890",
+                "bankName": "Musterbank",
+                "taxOffice": "Finanzamt Musterstadt",
+                "taxNumber": "123 4567 89",
+                "vatId": "DE999999999",
+                "description": "D\u00f6ner vom feinsten!",
+                "shopCategories": [
+                    "spanish",
+                    "catering",
+                    "candies",
+                    "fish_and_chips"
+                ],
+                "name": "DeliveryWare Paderborn",
+                "timeZone": "Europe\/Berlin",
+                "firstName": "Max",
+                "lastName": "Mustermann",
+                "street": "Markt",
+                "streetNumber": "9",
+                "email": "info@deliveryware.de",
+                "zipcode": "33098",
+                "deliveryType": "radius",
+                "city": "Paderborn",
+                "locationLat": 51.71820000000000305817593471147119998931884765625,
+                "locationLon": 8.754889999999999616875356878153979778289794921875,
+                "maxRadius": 5.0,
+                "phoneNumber": "01 23 4 \/ 56 78 9",
+                "faxNumber": null,
+                "limitRule": "disabled",
+                "limitInterval": "halfHour",
+                "openingHours": [
+                    {
+                        "day": "monday",
+                        "info": null,
+                        "times": [
+                            {
+                                "from": "09:00",
+                                "until": "12:00"
+                            },
+                            {
+                                "from": "13:30",
+                                "until": "22:00"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "tuesday",
+                        "info": null,
+                        "times": [
+                            {
+                                "from": "09:00",
+                                "until": "12:00"
+                            },
+                            {
+                                "from": "13:30",
+                                "until": "22:00"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "wednesday",
+                        "info": null,
+                        "times": [
+                            {
+                                "from": "09:00",
+                                "until": "12:00"
+                            },
+                            {
+                                "from": "13:30",
+                                "until": "22:00"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "thursday",
+                        "info": null,
+                        "times": [
+                            {
+                                "from": "09:00",
+                                "until": "12:00"
+                            },
+                            {
+                                "from": "13:30",
+                                "until": "22:00"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "friday",
+                        "info": null,
+                        "times": [
+                            {
+                                "from": "09:00",
+                                "until": "12:00"
+                            },
+                            {
+                                "from": "13:30",
+                                "until": "22:00"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "saturday",
+                        "info": null,
+                        "times": [
+                            {
+                                "from": "09:00",
+                                "until": "12:00"
+                            },
+                            {
+                                "from": "13:30",
+                                "until": "22:00"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "sunday",
+                        "info": null,
+                        "times": [
+                            {
+                                "from": "09:00",
+                                "until": "12:00"
+                            },
+                            {
+                                "from": "13:30",
+                                "until": "22:00"
+                            }
+                        ]
+                    }
+                ],
+                "deliveryHours": [
+                    {
+                        "day": "monday",
+                        "info": null,
+                        "times": [
+                            {
+                                "from": "09:00",
+                                "until": "12:00"
+                            },
+                            {
+                                "from": "13:30",
+                                "until": "22:00"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "tuesday",
+                        "info": null,
+                        "times": [
+                            {
+                                "from": "09:00",
+                                "until": "12:00"
+                            },
+                            {
+                                "from": "13:30",
+                                "until": "22:00"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "wednesday",
+                        "info": null,
+                        "times": [
+                            {
+                                "from": "09:00",
+                                "until": "12:00"
+                            },
+                            {
+                                "from": "13:30",
+                                "until": "22:00"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "thursday",
+                        "info": null,
+                        "times": [
+                            {
+                                "from": "09:00",
+                                "until": "12:00"
+                            },
+                            {
+                                "from": "13:30",
+                                "until": "22:00"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "friday",
+                        "info": null,
+                        "times": [
+                            {
+                                "from": "09:00",
+                                "until": "12:00"
+                            },
+                            {
+                                "from": "13:30",
+                                "until": "22:00"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "saturday",
+                        "info": null,
+                        "times": [
+                            {
+                                "from": "09:00",
+                                "until": "12:00"
+                            },
+                            {
+                                "from": "13:30",
+                                "until": "22:00"
+                            }
+                        ]
+                    },
+                    {
+                        "day": "sunday",
+                        "info": null,
+                        "times": [
+                            {
+                                "from": "09:00",
+                                "until": "12:00"
+                            },
+                            {
+                                "from": "13:30",
+                                "until": "22:00"
+                            }
+                        ]
+                    }
+                ],
+                "preparationTime": 30,
+                "deliveryTime": 30,
+                "deliveryPrice": 2.0,
+                "minOrderValue": 20.0,
+                "inProgress": null,
+                "limitAmount": 5,
+                "limitedAt": "2022-10-02T19:46:02.000+00:00",
+                "createdAt": "2001-02-03T01:02:03.000+00:00",
+                "updatedAt": "2022-10-22T12:17:23.000+00:00",
+                "apiAlias": null
+            },
+            "links": {
+                "self": "https:\/\/dewashop.de\/api\/dewa-shop\/c736ca99f0c97abe27218c0882a3952c"
+            },
+            "relationships": {
+                "media": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/dewa-shop\/c736ca99f0c97abe27218c0882a3952c\/media"
+                    }
+                },
+                "category": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/dewa-shop\/c736ca99f0c97abe27218c0882a3952c\/category"
+                    }
+                },
+                "country": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/dewa-shop\/c736ca99f0c97abe27218c0882a3952c\/country"
+                    }
+                },
+                "deliverers": {
+                    "data": [
+                        {
+                            "type": "dewa_deliverer",
+                            "id": "93e557669391dbdbbb1ee811f8080cc9"
+                        }
+                    ],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/dewa-shop\/c736ca99f0c97abe27218c0882a3952c\/deliverers"
+                    }
+                },
+                "printers": {
+                    "data": [
+                        {
+                            "type": "dewa_printer",
+                            "id": "996d22f56d8607f024e0b528fde26d7a"
+                        }
+                    ],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/dewa-shop\/c736ca99f0c97abe27218c0882a3952c\/printers"
+                    }
+                },
+                "shopOrders": {
+                    "data": [
+                        {
+                            "type": "dewa_shop_order",
+                            "id": "7a0828d9e4054b7e858f3a616bd169aa"
+                        },
+                        {
+                            "type": "dewa_shop_order",
+                            "id": "d881e81baa984c0fb01d0e8231e1b285"
+                        },
+                        {
+                            "type": "dewa_shop_order",
+                            "id": "f08f9773ae1e4f1d9e5b16468e1a1ed3"
+                        }
+                    ],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/dewa-shop\/c736ca99f0c97abe27218c0882a3952c\/shop-orders"
+                    }
+                },
+                "shopAreas": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/dewa-shop\/c736ca99f0c97abe27218c0882a3952c\/shop-areas"
+                    }
+                },
+                "products": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/dewa-shop\/c736ca99f0c97abe27218c0882a3952c\/products"
+                    }
+                },
+                "salesChannels": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/dewa-shop\/c736ca99f0c97abe27218c0882a3952c\/sales-channels"
+                    }
+                }
+            },
+            "meta": null
+        }
+    ],
+    "included": [
+        {
+            "id": "93e557669391dbdbbb1ee811f8080cc9",
+            "type": "dewa_deliverer",
+            "attributes": {
+                "mediaId": null,
+                "shopId": "c736ca99f0c97abe27218c0882a3952c",
+                "active": true,
+                "name": "Bringdienst",
+                "trackingCode": "PB0001",
+                "locationLat": null,
+                "locationLon": null,
+                "phoneNumber": null,
+                "createdAt": "2001-02-03T01:02:03.000+00:00",
+                "updatedAt": null,
+                "apiAlias": null
+            },
+            "links": {
+                "self": "https:\/\/dewashop.de\/api\/dewa-deliverer\/93e557669391dbdbbb1ee811f8080cc9"
+            },
+            "relationships": {
+                "shop": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/dewa-deliverer\/93e557669391dbdbbb1ee811f8080cc9\/shop"
+                    }
+                },
+                "media": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/dewa-deliverer\/93e557669391dbdbbb1ee811f8080cc9\/media"
+                    }
+                }
+            },
+            "meta": null
+        },
+        {
+            "id": "996d22f56d8607f024e0b528fde26d7a",
+            "type": "dewa_printer",
+            "attributes": {
+                "mediaId": null,
+                "shopId": "c736ca99f0c97abe27218c0882a3952c",
+                "active": true,
+                "name": "K\u00fcche",
+                "mac": "00:00:00:00:00:00",
+                "template": "[feed: length 30mm]\r\n\r\n{% set shop = shopOrder.shop %}\r\n{% set order = shopOrder.order %}\r\n{% set delivery = order.deliveries.first() %}\r\n{% set address = delivery.shippingOrderAddress %}\r\n\r\n[align: center]\r\n\r\n[image: url http:\/\/dewa.dev.flinkfactory.com\/media\/c1\/46\/25\/1619389755\/demo-logo_black.jpg; width 60%; min-width 48mm]\r\n\r\n{{ shop.name }}\r\n{{ shop.street }} {{ shop.streetNumber }}\r\n{{ shop.zipcode }} {{ shop.city }}\r\n{% if shop.phoneNumber %}{{ shop.phoneNumber }}{% endif %}\r\n\r\n{{ \"dewa-shop.slip.orderNumber\" | trans }}: {{ order.orderNumber }}\r\n{{ order.orderDateTime | date(\"d.m.Y H:i\") }}\r\n\r\n[bold: on]\r\n\r\n{{ delivery.shippingMethod.name }}\r\n{{ shopOrder.desired_time | date(\"d.m.Y H:i\") }}\r\n\r\n[bold: off]\r\n\r\n{{ address.firstName }} {{ address.lastName }}\r\n{{ address.street }}\r\n{{ address.zipcode }} {{ address.city }}\r\n{% if address.phoneNumber %}{{ address.phoneNumber }}{% endif %}\r\n\r\n[align: left]\r\n\r\n{% for item in order.lineItems %}\r\n    [column: left: {{ item.quantity }}x {{ item.label }} {% if item.payload.productNumber %}({{ item.payload.productNumber }}){% endif %}; right: {{ item.price.totalPrice|currency }}]\r\n    {% if item.payload.dewa %}\r\n        {% for dewa in item.payload.dewa %}\r\n            {{ dewa.name}}:\r\n            {% if dewa.value is iterable %}\r\n                {{ dewa.value|join(\", \") }}\r\n            {% else %}\r\n                {{ dewa.value }}\r\n            {% endif %}\r\n        {% endfor %}\r\n    {% endif %}\r\n{% endfor %}\r\n\r\n[column: left: {{ \"dewa-shop.slip.deliveryCosts\" | trans }}:; right: {{ delivery.shippingCosts.totalPrice|currency }}]\r\n\r\n[bold: on]\r\n\r\n[column: left: Total:; right: {{order.price.totalPrice|currency}}]\r\n\r\n[bold: off]\r\n\r\n{% for percentage,tax in order.price.calculatedTaxes %}\n[column: left: {{ percentage }}% MwSt.; right: {{ tax.tax|currency }}]\n{% endfor %}\n[align: center]\n[bold: on]\r\n\r\n{% if order.transactions.last.stateMachineState.technicalName == \"paid\" %}\r\n    {{ \"dewa-shop.slip.paid\" | trans }}\r\n{% else %}\r\n    {{ \"dewa-shop.slip.notPaid\" | trans }}\r\n{% endif %}\r\n\r\n[bold: off]\r\n\r\n{{ \"dewa-shop.slip.thisIsNoInvoice\" | trans }}\r\n\r\n[cut]",
+                "lastPolled": null,
+                "status": "",
+                "dotWidth": 0,
+                "printerType": "",
+                "printerVersion": "",
+                "createdAt": "2001-02-03T01:02:03.000+00:00",
+                "updatedAt": null,
+                "apiAlias": null
+            },
+            "links": {
+                "self": "https:\/\/dewashop.de\/api\/dewa-printer\/996d22f56d8607f024e0b528fde26d7a"
+            },
+            "relationships": {
+                "shop": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/dewa-printer\/996d22f56d8607f024e0b528fde26d7a\/shop"
+                    }
+                },
+                "media": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/dewa-printer\/996d22f56d8607f024e0b528fde26d7a\/media"
+                    }
+                },
+                "printJobs": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/dewa-printer\/996d22f56d8607f024e0b528fde26d7a\/print-jobs"
+                    }
+                },
+                "printTurnovers": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/dewa-printer\/996d22f56d8607f024e0b528fde26d7a\/print-turnovers"
+                    }
+                }
+            },
+            "meta": null
+        },
+        {
+            "id": "30a019dcff6842e9b764bc61c0d9d343",
+            "type": "state_machine_state",
+            "attributes": {
+                "technicalName": "in_progress",
+                "name": "In Bearbeitung",
+                "stateMachineId": "1c6639f1f35745cf84d0b8d15007681d",
+                "customFields": null,
+                "createdAt": "2021-05-12T02:59:40.368+00:00",
+                "updatedAt": null,
+                "translated": {
+                    "name": "In Bearbeitung",
+                    "customFields": {}
+                },
+                "apiAlias": null
+            },
+            "links": {
+                "self": "https:\/\/dewashop.de\/api\/state-machine-state\/30a019dcff6842e9b764bc61c0d9d343"
+            },
+            "relationships": {
+                "stateMachine": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/state-machine-state\/30a019dcff6842e9b764bc61c0d9d343\/state-machine"
+                    }
+                },
+                "fromStateMachineTransitions": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/state-machine-state\/30a019dcff6842e9b764bc61c0d9d343\/from-state-machine-transitions"
+                    }
+                },
+                "toStateMachineTransitions": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/state-machine-state\/30a019dcff6842e9b764bc61c0d9d343\/to-state-machine-transitions"
+                    }
+                },
+                "translations": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/state-machine-state\/30a019dcff6842e9b764bc61c0d9d343\/translations"
+                    }
+                },
+                "orderTransactions": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/state-machine-state\/30a019dcff6842e9b764bc61c0d9d343\/order-transactions"
+                    }
+                },
+                "orderDeliveries": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/state-machine-state\/30a019dcff6842e9b764bc61c0d9d343\/order-deliveries"
+                    }
+                },
+                "orders": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/state-machine-state\/30a019dcff6842e9b764bc61c0d9d343\/orders"
+                    }
+                },
+                "orderTransactionCaptures": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/state-machine-state\/30a019dcff6842e9b764bc61c0d9d343\/order-transaction-captures"
+                    }
+                },
+                "orderTransactionCaptureRefunds": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/state-machine-state\/30a019dcff6842e9b764bc61c0d9d343\/order-transaction-capture-refunds"
+                    }
+                },
+                "toStateMachineHistoryEntries": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/state-machine-state\/30a019dcff6842e9b764bc61c0d9d343\/to-state-machine-history-entries"
+                    }
+                },
+                "fromStateMachineHistoryEntries": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/state-machine-state\/30a019dcff6842e9b764bc61c0d9d343\/from-state-machine-history-entries"
+                    }
+                }
+            },
+            "meta": null
+        },
+        {
+            "id": "5fb273e91ebd4223b88ca57c4222092d",
+            "type": "order_customer",
+            "attributes": {
+                "versionId": "0fa91ce3e96a4bc2be4bd9ce752c3425",
+                "customerId": "ce7d92d265904fb5a98f791a3cd29ae7",
+                "orderId": "c211e0c7b56d4136be87a4c2fa4d322a",
+                "orderVersionId": "0fa91ce3e96a4bc2be4bd9ce752c3425",
+                "email": "leon@tappe-it.de",
+                "salutationId": "29a39c400b874ec282c7b9b2319aabab",
+                "firstName": "Leon",
+                "lastName": "Tappe",
+                "company": null,
+                "title": null,
+                "vatIds": null,
+                "customerNumber": "10036",
+                "customFields": null,
+                "remoteAddress": "37.201.145.0",
+                "createdAt": "2022-10-04T21:17:16.946+00:00",
+                "updatedAt": null,
+                "apiAlias": null
+            },
+            "links": {
+                "self": "https:\/\/dewashop.de\/api\/order-customer\/5fb273e91ebd4223b88ca57c4222092d"
+            },
+            "relationships": {
+                "order": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-customer\/5fb273e91ebd4223b88ca57c4222092d\/order"
+                    }
+                },
+                "customer": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-customer\/5fb273e91ebd4223b88ca57c4222092d\/customer"
+                    }
+                },
+                "salutation": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-customer\/5fb273e91ebd4223b88ca57c4222092d\/salutation"
+                    }
+                }
+            },
+            "meta": null
+        },
+        {
+            "id": "b7d2554b0ce847cd82f3ac9bd1c0dfca",
+            "type": "currency",
+            "attributes": {
+                "factor": 1.0,
+                "symbol": "\u20ac",
+                "isoCode": "EUR",
+                "shortName": "EUR",
+                "name": "Euro",
+                "position": 1,
+                "isSystemDefault": true,
+                "customFields": null,
+                "itemRounding": {
+                    "decimals": 2,
+                    "interval": 0.01000000000000000020816681711721685132943093776702880859375,
+                    "roundForNet": true,
+                    "extensions": []
+                },
+                "totalRounding": {
+                    "decimals": 2,
+                    "interval": 0.01000000000000000020816681711721685132943093776702880859375,
+                    "roundForNet": true,
+                    "extensions": []
+                },
+                "taxFreeFrom": 0.0,
+                "createdAt": "2021-05-12T02:59:40.309+00:00",
+                "updatedAt": null,
+                "translated": {
+                    "shortName": "EUR",
+                    "name": "Euro",
+                    "customFields": {}
+                },
+                "apiAlias": null
+            },
+            "links": {
+                "self": "https:\/\/dewashop.de\/api\/currency\/b7d2554b0ce847cd82f3ac9bd1c0dfca"
+            },
+            "relationships": {
+                "translations": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/currency\/b7d2554b0ce847cd82f3ac9bd1c0dfca\/translations"
+                    }
+                },
+                "salesChannelDefaultAssignments": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/currency\/b7d2554b0ce847cd82f3ac9bd1c0dfca\/sales-channel-default-assignments"
+                    }
+                },
+                "orders": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/currency\/b7d2554b0ce847cd82f3ac9bd1c0dfca\/orders"
+                    }
+                },
+                "salesChannels": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/currency\/b7d2554b0ce847cd82f3ac9bd1c0dfca\/sales-channels"
+                    }
+                },
+                "salesChannelDomains": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/currency\/b7d2554b0ce847cd82f3ac9bd1c0dfca\/sales-channel-domains"
+                    }
+                },
+                "promotionDiscountPrices": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/currency\/b7d2554b0ce847cd82f3ac9bd1c0dfca\/promotion-discount-prices"
+                    }
+                },
+                "productExports": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/currency\/b7d2554b0ce847cd82f3ac9bd1c0dfca\/product-exports"
+                    }
+                },
+                "countryRoundings": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/currency\/b7d2554b0ce847cd82f3ac9bd1c0dfca\/country-roundings"
+                    }
+                }
+            },
+            "meta": null
+        },
+        {
+            "id": "ed643807c9f84cc8b50132ea3ccb1c3b",
+            "type": "salutation",
+            "attributes": {
+                "salutationKey": "undefined",
+                "displayName": "",
+                "letterName": "",
+                "customFields": null,
+                "createdAt": "2021-09-22T23:48:28.780+00:00",
+                "updatedAt": null,
+                "translated": {
+                    "displayName": "",
+                    "letterName": "",
+                    "customFields": {}
+                },
+                "apiAlias": null
+            },
+            "links": {
+                "self": "https:\/\/dewashop.de\/api\/salutation\/ed643807c9f84cc8b50132ea3ccb1c3b"
+            },
+            "relationships": {
+                "translations": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/salutation\/ed643807c9f84cc8b50132ea3ccb1c3b\/translations"
+                    }
+                },
+                "customers": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/salutation\/ed643807c9f84cc8b50132ea3ccb1c3b\/customers"
+                    }
+                },
+                "customerAddresses": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/salutation\/ed643807c9f84cc8b50132ea3ccb1c3b\/customer-addresses"
+                    }
+                },
+                "orderCustomers": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/salutation\/ed643807c9f84cc8b50132ea3ccb1c3b\/order-customers"
+                    }
+                },
+                "orderAddresses": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/salutation\/ed643807c9f84cc8b50132ea3ccb1c3b\/order-addresses"
+                    }
+                },
+                "newsletterRecipients": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/salutation\/ed643807c9f84cc8b50132ea3ccb1c3b\/newsletter-recipients"
+                    }
+                }
+            },
+            "meta": null
+        },
+        {
+            "id": "bad6669b02784c43959db68c26a02165",
+            "type": "order_address",
+            "attributes": {
+                "versionId": "0fa91ce3e96a4bc2be4bd9ce752c3425",
+                "countryId": "9d559041db79491cb641cc02ff9cc9cc",
+                "countryStateId": "7d94cc4f991b4a22a33b327ff68dd02c",
+                "orderId": "c211e0c7b56d4136be87a4c2fa4d322a",
+                "orderVersionId": "0fa91ce3e96a4bc2be4bd9ce752c3425",
+                "salutationId": "29a39c400b874ec282c7b9b2319aabab",
+                "firstName": "Leon",
+                "lastName": "Tappe",
+                "street": "Westernmauer 8",
+                "zipcode": "33098",
+                "city": "Paderborn",
+                "company": null,
+                "department": null,
+                "title": null,
+                "vatId": null,
+                "phoneNumber": null,
+                "additionalAddressLine1": null,
+                "additionalAddressLine2": null,
+                "customFields": null,
+                "createdAt": "2022-10-04T21:17:16.948+00:00",
+                "updatedAt": null,
+                "apiAlias": null
+            },
+            "links": {
+                "self": "https:\/\/dewashop.de\/api\/order-address\/bad6669b02784c43959db68c26a02165"
+            },
+            "relationships": {
+                "country": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-address\/bad6669b02784c43959db68c26a02165\/country"
+                    }
+                },
+                "countryState": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-address\/bad6669b02784c43959db68c26a02165\/country-state"
+                    }
+                },
+                "order": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-address\/bad6669b02784c43959db68c26a02165\/order"
+                    }
+                },
+                "orderDeliveries": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-address\/bad6669b02784c43959db68c26a02165\/order-deliveries"
+                    }
+                },
+                "salutation": {
+                    "data": {
+                        "type": "salutation",
+                        "id": "ed643807c9f84cc8b50132ea3ccb1c3b"
+                    },
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-address\/bad6669b02784c43959db68c26a02165\/salutation"
+                    }
+                }
+            },
+            "meta": null
+        },
+        {
+            "id": "8e16fffe75bf42a0a582ac54a5fd56b2",
+            "type": "state_machine_state",
+            "attributes": {
+                "technicalName": "shipped",
+                "name": "Versandt",
+                "stateMachineId": "11677b243ad649c7a124687a0800c818",
+                "customFields": null,
+                "createdAt": "2021-05-12T02:59:40.372+00:00",
+                "updatedAt": null,
+                "translated": {
+                    "name": "Versandt",
+                    "customFields": {}
+                },
+                "apiAlias": null
+            },
+            "links": {
+                "self": "https:\/\/dewashop.de\/api\/state-machine-state\/8e16fffe75bf42a0a582ac54a5fd56b2"
+            },
+            "relationships": {
+                "stateMachine": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/state-machine-state\/8e16fffe75bf42a0a582ac54a5fd56b2\/state-machine"
+                    }
+                },
+                "fromStateMachineTransitions": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/state-machine-state\/8e16fffe75bf42a0a582ac54a5fd56b2\/from-state-machine-transitions"
+                    }
+                },
+                "toStateMachineTransitions": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/state-machine-state\/8e16fffe75bf42a0a582ac54a5fd56b2\/to-state-machine-transitions"
+                    }
+                },
+                "translations": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/state-machine-state\/8e16fffe75bf42a0a582ac54a5fd56b2\/translations"
+                    }
+                },
+                "orderTransactions": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/state-machine-state\/8e16fffe75bf42a0a582ac54a5fd56b2\/order-transactions"
+                    }
+                },
+                "orderDeliveries": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/state-machine-state\/8e16fffe75bf42a0a582ac54a5fd56b2\/order-deliveries"
+                    }
+                },
+                "orders": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/state-machine-state\/8e16fffe75bf42a0a582ac54a5fd56b2\/orders"
+                    }
+                },
+                "orderTransactionCaptures": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/state-machine-state\/8e16fffe75bf42a0a582ac54a5fd56b2\/order-transaction-captures"
+                    }
+                },
+                "orderTransactionCaptureRefunds": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/state-machine-state\/8e16fffe75bf42a0a582ac54a5fd56b2\/order-transaction-capture-refunds"
+                    }
+                },
+                "toStateMachineHistoryEntries": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/state-machine-state\/8e16fffe75bf42a0a582ac54a5fd56b2\/to-state-machine-history-entries"
+                    }
+                },
+                "fromStateMachineHistoryEntries": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/state-machine-state\/8e16fffe75bf42a0a582ac54a5fd56b2\/from-state-machine-history-entries"
+                    }
+                }
+            },
+            "meta": null
+        },
+        {
+            "id": "06c0c250675f4a1da2fb524b3b123ae9",
+            "type": "delivery_time",
+            "attributes": {
+                "name": "1-3 Tage",
+                "min": 1,
+                "max": 3,
+                "unit": "day",
+                "customFields": null,
+                "createdAt": "2021-05-12T02:59:40.000+00:00",
+                "updatedAt": null,
+                "translated": {
+                    "name": "1-3 Tage",
+                    "customFields": {}
+                },
+                "apiAlias": null
+            },
+            "links": {
+                "self": "https:\/\/dewashop.de\/api\/delivery-time\/06c0c250675f4a1da2fb524b3b123ae9"
+            },
+            "relationships": {
+                "shippingMethods": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/delivery-time\/06c0c250675f4a1da2fb524b3b123ae9\/shipping-methods"
+                    }
+                },
+                "products": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/delivery-time\/06c0c250675f4a1da2fb524b3b123ae9\/products"
+                    }
+                },
+                "translations": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/delivery-time\/06c0c250675f4a1da2fb524b3b123ae9\/translations"
+                    }
+                }
+            },
+            "meta": null
+        },
+        {
+            "id": "38aeeba4f2a1432c6b45fd0b45ca0c61",
+            "type": "shipping_method",
+            "attributes": {
+                "name": "Lieferung",
+                "active": true,
+                "position": 1,
+                "customFields": null,
+                "availabilityRuleId": "166beac98c23492f8b344f1747d7f915",
+                "mediaId": null,
+                "deliveryTimeId": "06c0c250675f4a1da2fb524b3b123ae9",
+                "taxType": "auto",
+                "taxId": null,
+                "description": "Kaufen und liefern lassen",
+                "trackingUrl": null,
+                "createdAt": "2001-02-03T01:02:03.000+00:00",
+                "updatedAt": "2022-10-05T16:11:16.062+00:00",
+                "translated": {
+                    "name": "Lieferung",
+                    "customFields": {},
+                    "description": "Kaufen und liefern lassen",
+                    "trackingUrl": null
+                },
+                "apiAlias": null
+            },
+            "links": {
+                "self": "https:\/\/dewashop.de\/api\/shipping-method\/38aeeba4f2a1432c6b45fd0b45ca0c61"
+            },
+            "relationships": {
+                "deliveryTime": {
+                    "data": {
+                        "type": "delivery_time",
+                        "id": "06c0c250675f4a1da2fb524b3b123ae9"
+                    },
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/shipping-method\/38aeeba4f2a1432c6b45fd0b45ca0c61\/delivery-time"
+                    }
+                },
+                "translations": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/shipping-method\/38aeeba4f2a1432c6b45fd0b45ca0c61\/translations"
+                    }
+                },
+                "availabilityRule": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/shipping-method\/38aeeba4f2a1432c6b45fd0b45ca0c61\/availability-rule"
+                    }
+                },
+                "prices": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/shipping-method\/38aeeba4f2a1432c6b45fd0b45ca0c61\/prices"
+                    }
+                },
+                "media": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/shipping-method\/38aeeba4f2a1432c6b45fd0b45ca0c61\/media"
+                    }
+                },
+                "tags": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/shipping-method\/38aeeba4f2a1432c6b45fd0b45ca0c61\/tags"
+                    }
+                },
+                "orderDeliveries": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/shipping-method\/38aeeba4f2a1432c6b45fd0b45ca0c61\/order-deliveries"
+                    }
+                },
+                "salesChannels": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/shipping-method\/38aeeba4f2a1432c6b45fd0b45ca0c61\/sales-channels"
+                    }
+                },
+                "salesChannelDefaultAssignments": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/shipping-method\/38aeeba4f2a1432c6b45fd0b45ca0c61\/sales-channel-default-assignments"
+                    }
+                },
+                "tax": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/shipping-method\/38aeeba4f2a1432c6b45fd0b45ca0c61\/tax"
+                    }
+                }
+            },
+            "meta": null
+        },
+        {
+            "id": "94503eb3af954f16b9eadf66f5891e45",
+            "type": "order_delivery",
+            "attributes": {
+                "versionId": "0fa91ce3e96a4bc2be4bd9ce752c3425",
+                "orderId": "c211e0c7b56d4136be87a4c2fa4d322a",
+                "orderVersionId": "0fa91ce3e96a4bc2be4bd9ce752c3425",
+                "shippingOrderAddressId": "bad6669b02784c43959db68c26a02165",
+                "shippingOrderAddressVersionId": "0fa91ce3e96a4bc2be4bd9ce752c3425",
+                "shippingMethodId": "38aeeba4f2a1432c6b45fd0b45ca0c61",
+                "stateId": "8e16fffe75bf42a0a582ac54a5fd56b2",
+                "trackingCodes": [],
+                "shippingDateEarliest": "2022-10-05T00:00:00.000+00:00",
+                "shippingDateLatest": "2022-10-07T00:00:00.000+00:00",
+                "shippingCosts": {
+                    "unitPrice": 3.0,
+                    "quantity": 1,
+                    "totalPrice": 3.0,
+                    "calculatedTaxes": [
+                        {
+                            "tax": 0.200000000000000011102230246251565404236316680908203125,
+                            "taxRate": 7.0,
+                            "price": 3.0,
+                            "extensions": []
+                        }
+                    ],
+                    "taxRules": [
+                        {
+                            "taxRate": 7.0,
+                            "percentage": 100.0,
+                            "extensions": []
+                        }
+                    ],
+                    "referencePrice": null,
+                    "listPrice": null,
+                    "regulationPrice": null,
+                    "extensions": []
+                },
+                "customFields": null,
+                "createdAt": "2022-10-04T21:17:16.948+00:00",
+                "updatedAt": "2022-10-22T11:58:08.694+00:00",
+                "apiAlias": null
+            },
+            "links": {
+                "self": "https:\/\/dewashop.de\/api\/order-delivery\/94503eb3af954f16b9eadf66f5891e45"
+            },
+            "relationships": {
+                "stateMachineState": {
+                    "data": {
+                        "type": "state_machine_state",
+                        "id": "8e16fffe75bf42a0a582ac54a5fd56b2"
+                    },
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-delivery\/94503eb3af954f16b9eadf66f5891e45\/state-machine-state"
+                    }
+                },
+                "order": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-delivery\/94503eb3af954f16b9eadf66f5891e45\/order"
+                    }
+                },
+                "shippingOrderAddress": {
+                    "data": {
+                        "type": "order_address",
+                        "id": "bad6669b02784c43959db68c26a02165"
+                    },
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-delivery\/94503eb3af954f16b9eadf66f5891e45\/shipping-order-address"
+                    }
+                },
+                "shippingMethod": {
+                    "data": {
+                        "type": "shipping_method",
+                        "id": "38aeeba4f2a1432c6b45fd0b45ca0c61"
+                    },
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-delivery\/94503eb3af954f16b9eadf66f5891e45\/shipping-method"
+                    }
+                },
+                "positions": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-delivery\/94503eb3af954f16b9eadf66f5891e45\/positions"
+                    }
+                }
+            },
+            "meta": null
+        },
+        {
+            "id": "a0c8ce48f98a41a491d80000abe7e486",
+            "type": "order_line_item",
+            "attributes": {
+                "versionId": "0fa91ce3e96a4bc2be4bd9ce752c3425",
+                "orderId": "c211e0c7b56d4136be87a4c2fa4d322a",
+                "orderVersionId": "0fa91ce3e96a4bc2be4bd9ce752c3425",
+                "productId": null,
+                "productVersionId": "0fa91ce3e96a4bc2be4bd9ce752c3425",
+                "promotionId": null,
+                "parentId": null,
+                "parentVersionId": "0fa91ce3e96a4bc2be4bd9ce752c3425",
+                "coverId": "806c2527a21b4a30b416a7e5022f57c2",
+                "identifier": "1587962b72d0d09162b64f140c200d20",
+                "referencedId": "39852f9eed1fc79fd983217efbe78d9e",
+                "quantity": 4,
+                "label": "Pizza Salami",
+                "payload": {
+                    "dewa_shop": [
+                        {
+                            "name": "Gr\u00f6\u00dfe",
+                            "value": "Mini, \u00d8 22cm"
+                        },
+                        {
+                            "name": "Teigvariante",
+                            "value": [
+                                "Weizen"
+                            ]
+                        },
+                        {
+                            "name": "Pizzaso\u00dfe",
+                            "value": [
+                                "Tomatenso\u00dfe"
+                            ]
+                        }
+                    ],
+                    "dewa": [
+                        {
+                            "name": "Gr\u00f6\u00dfe",
+                            "value": "Mini, \u00d8 22cm"
+                        },
+                        {
+                            "name": "Teigvariante",
+                            "value": [
+                                "Weizen"
+                            ]
+                        },
+                        {
+                            "name": "Pizzaso\u00dfe",
+                            "value": [
+                                "Tomatenso\u00dfe"
+                            ]
+                        }
+                    ],
+                    "stockUnit": 0.263067897824428464925716752986772917211055755615234375,
+                    "productNumber": "001",
+                    "customFields": []
+                },
+                "good": true,
+                "removable": true,
+                "stackable": true,
+                "position": 1,
+                "price": {
+                    "unitPrice": 5.5,
+                    "quantity": 4,
+                    "totalPrice": 22.0,
+                    "calculatedTaxes": [
+                        {
+                            "tax": 1.439999999999999946709294817992486059665679931640625,
+                            "taxRate": 7.0,
+                            "price": 22.0,
+                            "extensions": []
+                        }
+                    ],
+                    "taxRules": [
+                        {
+                            "taxRate": 7.0,
+                            "percentage": 100.0,
+                            "extensions": []
+                        }
+                    ],
+                    "referencePrice": null,
+                    "listPrice": null,
+                    "regulationPrice": null,
+                    "extensions": []
+                },
+                "priceDefinition": null,
+                "unitPrice": 5.5,
+                "totalPrice": 22.0,
+                "description": "Pizza Salami",
+                "type": "dewa_product",
+                "customFields": null,
+                "createdAt": "2022-10-04T21:17:16.948+00:00",
+                "updatedAt": null,
+                "apiAlias": null
+            },
+            "links": {
+                "self": "https:\/\/dewashop.de\/api\/order-line-item\/a0c8ce48f98a41a491d80000abe7e486"
+            },
+            "relationships": {
+                "cover": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-line-item\/a0c8ce48f98a41a491d80000abe7e486\/cover"
+                    }
+                },
+                "order": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-line-item\/a0c8ce48f98a41a491d80000abe7e486\/order"
+                    }
+                },
+                "product": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-line-item\/a0c8ce48f98a41a491d80000abe7e486\/product"
+                    }
+                },
+                "promotion": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-line-item\/a0c8ce48f98a41a491d80000abe7e486\/promotion"
+                    }
+                },
+                "orderDeliveryPositions": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-line-item\/a0c8ce48f98a41a491d80000abe7e486\/order-delivery-positions"
+                    }
+                },
+                "orderTransactionCaptureRefundPositions": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-line-item\/a0c8ce48f98a41a491d80000abe7e486\/order-transaction-capture-refund-positions"
+                    }
+                },
+                "parent": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-line-item\/a0c8ce48f98a41a491d80000abe7e486\/parent"
+                    }
+                },
+                "children": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-line-item\/a0c8ce48f98a41a491d80000abe7e486\/children"
+                    }
+                }
+            },
+            "meta": null
+        },
+        {
+            "id": "7058516899b14a2dafcad15df438c1c3",
+            "type": "state_machine_state",
+            "attributes": {
+                "technicalName": "open",
+                "name": "Offen",
+                "stateMachineId": "4d73458749244c5196e8872b653464e4",
+                "customFields": null,
+                "createdAt": "2021-05-12T02:59:40.375+00:00",
+                "updatedAt": null,
+                "translated": {
+                    "name": "Offen",
+                    "customFields": {}
+                },
+                "apiAlias": null
+            },
+            "links": {
+                "self": "https:\/\/dewashop.de\/api\/state-machine-state\/7058516899b14a2dafcad15df438c1c3"
+            },
+            "relationships": {
+                "stateMachine": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/state-machine-state\/7058516899b14a2dafcad15df438c1c3\/state-machine"
+                    }
+                },
+                "fromStateMachineTransitions": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/state-machine-state\/7058516899b14a2dafcad15df438c1c3\/from-state-machine-transitions"
+                    }
+                },
+                "toStateMachineTransitions": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/state-machine-state\/7058516899b14a2dafcad15df438c1c3\/to-state-machine-transitions"
+                    }
+                },
+                "translations": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/state-machine-state\/7058516899b14a2dafcad15df438c1c3\/translations"
+                    }
+                },
+                "orderTransactions": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/state-machine-state\/7058516899b14a2dafcad15df438c1c3\/order-transactions"
+                    }
+                },
+                "orderDeliveries": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/state-machine-state\/7058516899b14a2dafcad15df438c1c3\/order-deliveries"
+                    }
+                },
+                "orders": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/state-machine-state\/7058516899b14a2dafcad15df438c1c3\/orders"
+                    }
+                },
+                "orderTransactionCaptures": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/state-machine-state\/7058516899b14a2dafcad15df438c1c3\/order-transaction-captures"
+                    }
+                },
+                "orderTransactionCaptureRefunds": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/state-machine-state\/7058516899b14a2dafcad15df438c1c3\/order-transaction-capture-refunds"
+                    }
+                },
+                "toStateMachineHistoryEntries": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/state-machine-state\/7058516899b14a2dafcad15df438c1c3\/to-state-machine-history-entries"
+                    }
+                },
+                "fromStateMachineHistoryEntries": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/state-machine-state\/7058516899b14a2dafcad15df438c1c3\/from-state-machine-history-entries"
+                    }
+                }
+            },
+            "meta": null
+        },
+        {
+            "id": "1b463ee3aff2433e9b420b20356c1d11",
+            "type": "payment_method",
+            "attributes": {
+                "pluginId": null,
+                "handlerIdentifier": "Shopware\\Core\\Checkout\\Payment\\Cart\\PaymentHandler\\DefaultPayment",
+                "name": "Barzahlung",
+                "distinguishableName": "Barzahlung",
+                "description": null,
+                "position": 2,
+                "active": true,
+                "afterOrderEnabled": true,
+                "customFields": null,
+                "availabilityRuleId": "166beac98c23492f8b344f1747d7f915",
+                "mediaId": null,
+                "formattedHandlerIdentifier": "handler_shopware_defaultpayment",
+                "synchronous": true,
+                "asynchronous": false,
+                "prepared": false,
+                "refundable": false,
+                "createdAt": "2021-05-13T02:36:04.503+00:00",
+                "updatedAt": "2022-02-22T17:26:33.215+00:00",
+                "translated": {
+                    "name": "Barzahlung",
+                    "distinguishableName": "Barzahlung",
+                    "description": null,
+                    "customFields": {}
+                },
+                "apiAlias": null
+            },
+            "links": {
+                "self": "https:\/\/dewashop.de\/api\/payment-method\/1b463ee3aff2433e9b420b20356c1d11"
+            },
+            "relationships": {
+                "translations": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/payment-method\/1b463ee3aff2433e9b420b20356c1d11\/translations"
+                    }
+                },
+                "media": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/payment-method\/1b463ee3aff2433e9b420b20356c1d11\/media"
+                    }
+                },
+                "availabilityRule": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/payment-method\/1b463ee3aff2433e9b420b20356c1d11\/availability-rule"
+                    }
+                },
+                "salesChannelDefaultAssignments": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/payment-method\/1b463ee3aff2433e9b420b20356c1d11\/sales-channel-default-assignments"
+                    }
+                },
+                "plugin": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/payment-method\/1b463ee3aff2433e9b420b20356c1d11\/plugin"
+                    }
+                },
+                "customers": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/payment-method\/1b463ee3aff2433e9b420b20356c1d11\/customers"
+                    }
+                },
+                "orderTransactions": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/payment-method\/1b463ee3aff2433e9b420b20356c1d11\/order-transactions"
+                    }
+                },
+                "salesChannels": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/payment-method\/1b463ee3aff2433e9b420b20356c1d11\/sales-channels"
+                    }
+                },
+                "appPaymentMethod": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/payment-method\/1b463ee3aff2433e9b420b20356c1d11\/app-payment-method"
+                    }
+                }
+            },
+            "meta": null
+        },
+        {
+            "id": "3c19ef461def45a6be9a54454440f94a",
+            "type": "order_transaction",
+            "attributes": {
+                "versionId": "0fa91ce3e96a4bc2be4bd9ce752c3425",
+                "orderId": "c211e0c7b56d4136be87a4c2fa4d322a",
+                "orderVersionId": "0fa91ce3e96a4bc2be4bd9ce752c3425",
+                "paymentMethodId": "1b463ee3aff2433e9b420b20356c1d11",
+                "amount": {
+                    "unitPrice": 25.0,
+                    "quantity": 1,
+                    "totalPrice": 25.0,
+                    "calculatedTaxes": [
+                        {
+                            "tax": 1.6399999999999999023003738329862244427204132080078125,
+                            "taxRate": 7.0,
+                            "price": 25.0,
+                            "extensions": []
+                        }
+                    ],
+                    "taxRules": [
+                        {
+                            "taxRate": 7.0,
+                            "percentage": 100.0,
+                            "extensions": []
+                        }
+                    ],
+                    "referencePrice": null,
+                    "listPrice": null,
+                    "regulationPrice": null,
+                    "extensions": []
+                },
+                "stateId": "7058516899b14a2dafcad15df438c1c3",
+                "customFields": null,
+                "createdAt": "2022-10-04T21:17:16.949+00:00",
+                "updatedAt": null,
+                "apiAlias": null
+            },
+            "links": {
+                "self": "https:\/\/dewashop.de\/api\/order-transaction\/3c19ef461def45a6be9a54454440f94a"
+            },
+            "relationships": {
+                "stateMachineState": {
+                    "data": {
+                        "type": "state_machine_state",
+                        "id": "7058516899b14a2dafcad15df438c1c3"
+                    },
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-transaction\/3c19ef461def45a6be9a54454440f94a\/state-machine-state"
+                    }
+                },
+                "order": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-transaction\/3c19ef461def45a6be9a54454440f94a\/order"
+                    }
+                },
+                "paymentMethod": {
+                    "data": {
+                        "type": "payment_method",
+                        "id": "1b463ee3aff2433e9b420b20356c1d11"
+                    },
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-transaction\/3c19ef461def45a6be9a54454440f94a\/payment-method"
+                    }
+                },
+                "captures": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-transaction\/3c19ef461def45a6be9a54454440f94a\/captures"
+                    }
+                }
+            },
+            "meta": null
+        },
+        {
+            "id": "c211e0c7b56d4136be87a4c2fa4d322a",
+            "type": "order",
+            "attributes": {
+                "versionId": "0fa91ce3e96a4bc2be4bd9ce752c3425",
+                "autoIncrement": 58,
+                "orderNumber": "10042",
+                "billingAddressId": "bad6669b02784c43959db68c26a02165",
+                "billingAddressVersionId": "0fa91ce3e96a4bc2be4bd9ce752c3425",
+                "currencyId": "b7d2554b0ce847cd82f3ac9bd1c0dfca",
+                "languageId": "2fbb5fe2e29a4d70aa5854ce7ce3e20b",
+                "salesChannelId": "6b12610939b84a2f97a8acf31c1d99e4",
+                "orderDateTime": "2022-10-04T21:17:16.931+00:00",
+                "orderDate": "2022-10-04T00:00:00.000+00:00",
+                "price": {
+                    "netPrice": 23.3599999999999994315658113919198513031005859375,
+                    "totalPrice": 25.0,
+                    "calculatedTaxes": [
+                        {
+                            "tax": 1.6399999999999999023003738329862244427204132080078125,
+                            "taxRate": 7.0,
+                            "price": 25.0,
+                            "extensions": []
+                        }
+                    ],
+                    "taxRules": [
+                        {
+                            "taxRate": 7.0,
+                            "percentage": 100.0,
+                            "extensions": []
+                        }
+                    ],
+                    "positionPrice": 22.0,
+                    "taxStatus": "gross",
+                    "rawTotal": 25.0,
+                    "extensions": []
+                },
+                "amountTotal": 25.0,
+                "amountNet": 23.3599999999999994315658113919198513031005859375,
+                "positionPrice": 22.0,
+                "taxStatus": "gross",
+                "shippingCosts": {
+                    "unitPrice": 3.0,
+                    "quantity": 1,
+                    "totalPrice": 3.0,
+                    "calculatedTaxes": [
+                        {
+                            "tax": 0.200000000000000011102230246251565404236316680908203125,
+                            "taxRate": 7.0,
+                            "price": 3.0,
+                            "extensions": []
+                        }
+                    ],
+                    "taxRules": [
+                        {
+                            "taxRate": 7.0,
+                            "percentage": 100.0,
+                            "extensions": []
+                        }
+                    ],
+                    "referencePrice": null,
+                    "listPrice": null,
+                    "regulationPrice": null,
+                    "extensions": []
+                },
+                "shippingTotal": 3.0,
+                "currencyFactor": 1.0,
+                "deepLinkCode": "OzfTPdrIWUnT3Xbd_2R7l1wm172gRl56",
+                "affiliateCode": null,
+                "campaignCode": null,
+                "customerComment": null,
+                "stateId": "30a019dcff6842e9b764bc61c0d9d343",
+                "ruleIds": [
+                    "166beac98c23492f8b344f1747d7f915",
+                    "55735e4083c34b32b92597927d2dc036",
+                    "aca79f67697240a480072cfb9788fba5",
+                    "5b0bf37252b9424cb177850056d29584"
+                ],
+                "customFields": null,
+                "createdById": null,
+                "updatedById": "13647d90ac3845748c00343d56137125",
+                "itemRounding": {
+                    "decimals": 2,
+                    "interval": 0.01000000000000000020816681711721685132943093776702880859375,
+                    "roundForNet": true,
+                    "extensions": []
+                },
+                "totalRounding": {
+                    "decimals": 2,
+                    "interval": 0.01000000000000000020816681711721685132943093776702880859375,
+                    "roundForNet": true,
+                    "extensions": []
+                },
+                "createdAt": "2022-10-04T21:17:16.950+00:00",
+                "updatedAt": "2022-10-22T11:57:29.217+00:00",
+                "apiAlias": null
+            },
+            "links": {
+                "self": "https:\/\/dewashop.de\/api\/order\/c211e0c7b56d4136be87a4c2fa4d322a"
+            },
+            "relationships": {
+                "stateMachineState": {
+                    "data": {
+                        "type": "state_machine_state",
+                        "id": "30a019dcff6842e9b764bc61c0d9d343"
+                    },
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order\/c211e0c7b56d4136be87a4c2fa4d322a\/state-machine-state"
+                    }
+                },
+                "orderCustomer": {
+                    "data": {
+                        "type": "order_customer",
+                        "id": "5fb273e91ebd4223b88ca57c4222092d"
+                    },
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order\/c211e0c7b56d4136be87a4c2fa4d322a\/order-customer"
+                    }
+                },
+                "currency": {
+                    "data": {
+                        "type": "currency",
+                        "id": "b7d2554b0ce847cd82f3ac9bd1c0dfca"
+                    },
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order\/c211e0c7b56d4136be87a4c2fa4d322a\/currency"
+                    }
+                },
+                "language": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order\/c211e0c7b56d4136be87a4c2fa4d322a\/language"
+                    }
+                },
+                "salesChannel": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order\/c211e0c7b56d4136be87a4c2fa4d322a\/sales-channel"
+                    }
+                },
+                "addresses": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order\/c211e0c7b56d4136be87a4c2fa4d322a\/addresses"
+                    }
+                },
+                "billingAddress": {
+                    "data": {
+                        "type": "order_address",
+                        "id": "bad6669b02784c43959db68c26a02165"
+                    },
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order\/c211e0c7b56d4136be87a4c2fa4d322a\/billing-address"
+                    }
+                },
+                "deliveries": {
+                    "data": [
+                        {
+                            "type": "order_delivery",
+                            "id": "94503eb3af954f16b9eadf66f5891e45"
+                        }
+                    ],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order\/c211e0c7b56d4136be87a4c2fa4d322a\/deliveries"
+                    }
+                },
+                "lineItems": {
+                    "data": [
+                        {
+                            "type": "order_line_item",
+                            "id": "a0c8ce48f98a41a491d80000abe7e486"
+                        }
+                    ],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order\/c211e0c7b56d4136be87a4c2fa4d322a\/line-items"
+                    }
+                },
+                "transactions": {
+                    "data": [
+                        {
+                            "type": "order_transaction",
+                            "id": "3c19ef461def45a6be9a54454440f94a"
+                        }
+                    ],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order\/c211e0c7b56d4136be87a4c2fa4d322a\/transactions"
+                    }
+                },
+                "documents": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order\/c211e0c7b56d4136be87a4c2fa4d322a\/documents"
+                    }
+                },
+                "tags": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order\/c211e0c7b56d4136be87a4c2fa4d322a\/tags"
+                    }
+                },
+                "createdBy": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order\/c211e0c7b56d4136be87a4c2fa4d322a\/created-by"
+                    }
+                },
+                "updatedBy": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order\/c211e0c7b56d4136be87a4c2fa4d322a\/updated-by"
+                    }
+                }
+            },
+            "meta": null
+        },
+        {
+            "id": "7a0828d9e4054b7e858f3a616bd169aa",
+            "type": "dewa_shop_order",
+            "attributes": {
+                "orderId": "c211e0c7b56d4136be87a4c2fa4d322a",
+                "orderVersionId": "0fa91ce3e96a4bc2be4bd9ce752c3425",
+                "shopId": "c736ca99f0c97abe27218c0882a3952c",
+                "delivererId": "93e557669391dbdbbb1ee811f8080cc9",
+                "locationLat": 51.71679999999999921556081972084939479827880859375,
+                "locationLon": 8.7474100000000003518607627484016120433807373046875,
+                "distance": 0.53822300000000000697042423780658282339572906494140625,
+                "comment": null,
+                "desiredTime": "2022-10-22T12:58:08.408+00:00",
+                "createdAt": "2022-10-04T21:17:17.037+00:00",
+                "updatedAt": "2022-10-22T11:58:08.517+00:00",
+                "apiAlias": null
+            },
+            "links": {
+                "self": "https:\/\/dewashop.de\/api\/dewa-shop-order\/7a0828d9e4054b7e858f3a616bd169aa"
+            },
+            "relationships": {
+                "order": {
+                    "data": {
+                        "type": "order",
+                        "id": "c211e0c7b56d4136be87a4c2fa4d322a"
+                    },
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/dewa-shop-order\/7a0828d9e4054b7e858f3a616bd169aa\/order"
+                    }
+                },
+                "shop": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/dewa-shop-order\/7a0828d9e4054b7e858f3a616bd169aa\/shop"
+                    }
+                },
+                "deliverer": {
+                    "data": {
+                        "type": "dewa_deliverer",
+                        "id": "93e557669391dbdbbb1ee811f8080cc9"
+                    },
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/dewa-shop-order\/7a0828d9e4054b7e858f3a616bd169aa\/deliverer"
+                    }
+                }
+            },
+            "meta": null
+        },
+        {
+            "id": "79c39d916b9442af9e43d130c852f58e",
+            "type": "state_machine_state",
+            "attributes": {
+                "technicalName": "open",
+                "name": "Offen",
+                "stateMachineId": "1c6639f1f35745cf84d0b8d15007681d",
+                "customFields": null,
+                "createdAt": "2021-05-12T02:59:40.367+00:00",
+                "updatedAt": null,
+                "translated": {
+                    "name": "Offen",
+                    "customFields": {}
+                },
+                "apiAlias": null
+            },
+            "links": {
+                "self": "https:\/\/dewashop.de\/api\/state-machine-state\/79c39d916b9442af9e43d130c852f58e"
+            },
+            "relationships": {
+                "stateMachine": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/state-machine-state\/79c39d916b9442af9e43d130c852f58e\/state-machine"
+                    }
+                },
+                "fromStateMachineTransitions": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/state-machine-state\/79c39d916b9442af9e43d130c852f58e\/from-state-machine-transitions"
+                    }
+                },
+                "toStateMachineTransitions": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/state-machine-state\/79c39d916b9442af9e43d130c852f58e\/to-state-machine-transitions"
+                    }
+                },
+                "translations": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/state-machine-state\/79c39d916b9442af9e43d130c852f58e\/translations"
+                    }
+                },
+                "orderTransactions": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/state-machine-state\/79c39d916b9442af9e43d130c852f58e\/order-transactions"
+                    }
+                },
+                "orderDeliveries": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/state-machine-state\/79c39d916b9442af9e43d130c852f58e\/order-deliveries"
+                    }
+                },
+                "orders": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/state-machine-state\/79c39d916b9442af9e43d130c852f58e\/orders"
+                    }
+                },
+                "orderTransactionCaptures": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/state-machine-state\/79c39d916b9442af9e43d130c852f58e\/order-transaction-captures"
+                    }
+                },
+                "orderTransactionCaptureRefunds": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/state-machine-state\/79c39d916b9442af9e43d130c852f58e\/order-transaction-capture-refunds"
+                    }
+                },
+                "toStateMachineHistoryEntries": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/state-machine-state\/79c39d916b9442af9e43d130c852f58e\/to-state-machine-history-entries"
+                    }
+                },
+                "fromStateMachineHistoryEntries": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/state-machine-state\/79c39d916b9442af9e43d130c852f58e\/from-state-machine-history-entries"
+                    }
+                }
+            },
+            "meta": null
+        },
+        {
+            "id": "b56fd23e23754db2bb571e97939a71c0",
+            "type": "order_customer",
+            "attributes": {
+                "versionId": "0fa91ce3e96a4bc2be4bd9ce752c3425",
+                "customerId": "590d82d8d445463d879539f053411752",
+                "orderId": "371eb95bb7a44b28a6a84683a492e89f",
+                "orderVersionId": "0fa91ce3e96a4bc2be4bd9ce752c3425",
+                "email": "test@test.de",
+                "salutationId": "adf7707030fa482d85dd955c1d5cb67a",
+                "firstName": "testi",
+                "lastName": "testo",
+                "company": null,
+                "title": null,
+                "vatIds": null,
+                "customerNumber": "10037",
+                "customFields": null,
+                "remoteAddress": "79.215.88.0",
+                "createdAt": "2022-10-07T16:59:26.579+00:00",
+                "updatedAt": null,
+                "apiAlias": null
+            },
+            "links": {
+                "self": "https:\/\/dewashop.de\/api\/order-customer\/b56fd23e23754db2bb571e97939a71c0"
+            },
+            "relationships": {
+                "order": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-customer\/b56fd23e23754db2bb571e97939a71c0\/order"
+                    }
+                },
+                "customer": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-customer\/b56fd23e23754db2bb571e97939a71c0\/customer"
+                    }
+                },
+                "salutation": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-customer\/b56fd23e23754db2bb571e97939a71c0\/salutation"
+                    }
+                }
+            },
+            "meta": null
+        },
+        {
+            "id": "886f7008caf94991ae8dd88bc107e253",
+            "type": "order_address",
+            "attributes": {
+                "versionId": "0fa91ce3e96a4bc2be4bd9ce752c3425",
+                "countryId": "9d559041db79491cb641cc02ff9cc9cc",
+                "countryStateId": "b2e3249a9ef14bbeafe44b6f7befeb60",
+                "orderId": "371eb95bb7a44b28a6a84683a492e89f",
+                "orderVersionId": "0fa91ce3e96a4bc2be4bd9ce752c3425",
+                "salutationId": "adf7707030fa482d85dd955c1d5cb67a",
+                "firstName": "testi",
+                "lastName": "testo",
+                "street": "testweg 123",
+                "zipcode": "12345",
+                "city": "Testbergen",
+                "company": null,
+                "department": null,
+                "title": null,
+                "vatId": null,
+                "phoneNumber": null,
+                "additionalAddressLine1": null,
+                "additionalAddressLine2": null,
+                "customFields": null,
+                "createdAt": "2022-10-07T16:59:26.581+00:00",
+                "updatedAt": null,
+                "apiAlias": null
+            },
+            "links": {
+                "self": "https:\/\/dewashop.de\/api\/order-address\/886f7008caf94991ae8dd88bc107e253"
+            },
+            "relationships": {
+                "country": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-address\/886f7008caf94991ae8dd88bc107e253\/country"
+                    }
+                },
+                "countryState": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-address\/886f7008caf94991ae8dd88bc107e253\/country-state"
+                    }
+                },
+                "order": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-address\/886f7008caf94991ae8dd88bc107e253\/order"
+                    }
+                },
+                "orderDeliveries": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-address\/886f7008caf94991ae8dd88bc107e253\/order-deliveries"
+                    }
+                },
+                "salutation": {
+                    "data": {
+                        "type": "salutation",
+                        "id": "ed643807c9f84cc8b50132ea3ccb1c3b"
+                    },
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-address\/886f7008caf94991ae8dd88bc107e253\/salutation"
+                    }
+                }
+            },
+            "meta": null
+        },
+        {
+            "id": "06d695c4da904776a3fb85649e486729",
+            "type": "state_machine_state",
+            "attributes": {
+                "technicalName": "open",
+                "name": "Offen",
+                "stateMachineId": "11677b243ad649c7a124687a0800c818",
+                "customFields": null,
+                "createdAt": "2021-05-12T02:59:40.371+00:00",
+                "updatedAt": null,
+                "translated": {
+                    "name": "Offen",
+                    "customFields": {}
+                },
+                "apiAlias": null
+            },
+            "links": {
+                "self": "https:\/\/dewashop.de\/api\/state-machine-state\/06d695c4da904776a3fb85649e486729"
+            },
+            "relationships": {
+                "stateMachine": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/state-machine-state\/06d695c4da904776a3fb85649e486729\/state-machine"
+                    }
+                },
+                "fromStateMachineTransitions": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/state-machine-state\/06d695c4da904776a3fb85649e486729\/from-state-machine-transitions"
+                    }
+                },
+                "toStateMachineTransitions": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/state-machine-state\/06d695c4da904776a3fb85649e486729\/to-state-machine-transitions"
+                    }
+                },
+                "translations": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/state-machine-state\/06d695c4da904776a3fb85649e486729\/translations"
+                    }
+                },
+                "orderTransactions": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/state-machine-state\/06d695c4da904776a3fb85649e486729\/order-transactions"
+                    }
+                },
+                "orderDeliveries": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/state-machine-state\/06d695c4da904776a3fb85649e486729\/order-deliveries"
+                    }
+                },
+                "orders": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/state-machine-state\/06d695c4da904776a3fb85649e486729\/orders"
+                    }
+                },
+                "orderTransactionCaptures": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/state-machine-state\/06d695c4da904776a3fb85649e486729\/order-transaction-captures"
+                    }
+                },
+                "orderTransactionCaptureRefunds": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/state-machine-state\/06d695c4da904776a3fb85649e486729\/order-transaction-capture-refunds"
+                    }
+                },
+                "toStateMachineHistoryEntries": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/state-machine-state\/06d695c4da904776a3fb85649e486729\/to-state-machine-history-entries"
+                    }
+                },
+                "fromStateMachineHistoryEntries": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/state-machine-state\/06d695c4da904776a3fb85649e486729\/from-state-machine-history-entries"
+                    }
+                }
+            },
+            "meta": null
+        },
+        {
+            "id": "7216e215ee1f4c2aa1ba0cc97256ac81",
+            "type": "order_delivery",
+            "attributes": {
+                "versionId": "0fa91ce3e96a4bc2be4bd9ce752c3425",
+                "orderId": "371eb95bb7a44b28a6a84683a492e89f",
+                "orderVersionId": "0fa91ce3e96a4bc2be4bd9ce752c3425",
+                "shippingOrderAddressId": "886f7008caf94991ae8dd88bc107e253",
+                "shippingOrderAddressVersionId": "0fa91ce3e96a4bc2be4bd9ce752c3425",
+                "shippingMethodId": "38aeeba4f2a1432c6b45fd0b45ca0c61",
+                "stateId": "06d695c4da904776a3fb85649e486729",
+                "trackingCodes": [],
+                "shippingDateEarliest": "2022-10-08T00:00:00.000+00:00",
+                "shippingDateLatest": "2022-10-10T00:00:00.000+00:00",
+                "shippingCosts": {
+                    "unitPrice": 3.0,
+                    "quantity": 1,
+                    "totalPrice": 3.0,
+                    "calculatedTaxes": [
+                        {
+                            "tax": 0.200000000000000011102230246251565404236316680908203125,
+                            "taxRate": 7.0,
+                            "price": 3.0,
+                            "extensions": []
+                        }
+                    ],
+                    "taxRules": [
+                        {
+                            "taxRate": 7.0,
+                            "percentage": 100.0,
+                            "extensions": []
+                        }
+                    ],
+                    "referencePrice": null,
+                    "listPrice": null,
+                    "regulationPrice": null,
+                    "extensions": []
+                },
+                "customFields": null,
+                "createdAt": "2022-10-07T16:59:26.582+00:00",
+                "updatedAt": null,
+                "apiAlias": null
+            },
+            "links": {
+                "self": "https:\/\/dewashop.de\/api\/order-delivery\/7216e215ee1f4c2aa1ba0cc97256ac81"
+            },
+            "relationships": {
+                "stateMachineState": {
+                    "data": {
+                        "type": "state_machine_state",
+                        "id": "06d695c4da904776a3fb85649e486729"
+                    },
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-delivery\/7216e215ee1f4c2aa1ba0cc97256ac81\/state-machine-state"
+                    }
+                },
+                "order": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-delivery\/7216e215ee1f4c2aa1ba0cc97256ac81\/order"
+                    }
+                },
+                "shippingOrderAddress": {
+                    "data": {
+                        "type": "order_address",
+                        "id": "886f7008caf94991ae8dd88bc107e253"
+                    },
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-delivery\/7216e215ee1f4c2aa1ba0cc97256ac81\/shipping-order-address"
+                    }
+                },
+                "shippingMethod": {
+                    "data": {
+                        "type": "shipping_method",
+                        "id": "38aeeba4f2a1432c6b45fd0b45ca0c61"
+                    },
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-delivery\/7216e215ee1f4c2aa1ba0cc97256ac81\/shipping-method"
+                    }
+                },
+                "positions": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-delivery\/7216e215ee1f4c2aa1ba0cc97256ac81\/positions"
+                    }
+                }
+            },
+            "meta": null
+        },
+        {
+            "id": "c279a5e322164c8784540bfd3ee767c1",
+            "type": "order_line_item",
+            "attributes": {
+                "versionId": "0fa91ce3e96a4bc2be4bd9ce752c3425",
+                "orderId": "371eb95bb7a44b28a6a84683a492e89f",
+                "orderVersionId": "0fa91ce3e96a4bc2be4bd9ce752c3425",
+                "productId": null,
+                "productVersionId": "0fa91ce3e96a4bc2be4bd9ce752c3425",
+                "promotionId": null,
+                "parentId": null,
+                "parentVersionId": "0fa91ce3e96a4bc2be4bd9ce752c3425",
+                "coverId": "48ae776cb9164d76ad718eba13dad04b",
+                "identifier": "7b03b7a4913e70e44052a597d50e5a3b",
+                "referencedId": "03f1995bd922d6e6986691586f4ae1bb",
+                "quantity": 1,
+                "label": "Pizzabr\u00f6tchen",
+                "payload": {
+                    "productNumber": "042",
+                    "customFields": []
+                },
+                "good": true,
+                "removable": true,
+                "stackable": true,
+                "position": 1,
+                "price": {
+                    "unitPrice": 2.5,
+                    "quantity": 1,
+                    "totalPrice": 2.5,
+                    "calculatedTaxes": [
+                        {
+                            "tax": 0.1600000000000000033306690738754696212708950042724609375,
+                            "taxRate": 7.0,
+                            "price": 2.5,
+                            "extensions": []
+                        }
+                    ],
+                    "taxRules": [
+                        {
+                            "taxRate": 7.0,
+                            "percentage": 100.0,
+                            "extensions": []
+                        }
+                    ],
+                    "referencePrice": null,
+                    "listPrice": null,
+                    "regulationPrice": null,
+                    "extensions": []
+                },
+                "priceDefinition": null,
+                "unitPrice": 2.5,
+                "totalPrice": 2.5,
+                "description": "Pizzabr\u00f6tchen",
+                "type": "dewa_product",
+                "customFields": null,
+                "createdAt": "2022-10-07T16:59:26.583+00:00",
+                "updatedAt": null,
+                "apiAlias": null
+            },
+            "links": {
+                "self": "https:\/\/dewashop.de\/api\/order-line-item\/c279a5e322164c8784540bfd3ee767c1"
+            },
+            "relationships": {
+                "cover": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-line-item\/c279a5e322164c8784540bfd3ee767c1\/cover"
+                    }
+                },
+                "order": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-line-item\/c279a5e322164c8784540bfd3ee767c1\/order"
+                    }
+                },
+                "product": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-line-item\/c279a5e322164c8784540bfd3ee767c1\/product"
+                    }
+                },
+                "promotion": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-line-item\/c279a5e322164c8784540bfd3ee767c1\/promotion"
+                    }
+                },
+                "orderDeliveryPositions": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-line-item\/c279a5e322164c8784540bfd3ee767c1\/order-delivery-positions"
+                    }
+                },
+                "orderTransactionCaptureRefundPositions": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-line-item\/c279a5e322164c8784540bfd3ee767c1\/order-transaction-capture-refund-positions"
+                    }
+                },
+                "parent": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-line-item\/c279a5e322164c8784540bfd3ee767c1\/parent"
+                    }
+                },
+                "children": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-line-item\/c279a5e322164c8784540bfd3ee767c1\/children"
+                    }
+                }
+            },
+            "meta": null
+        },
+        {
+            "id": "fcc9a57d4f0a428bab4a169904d6534e",
+            "type": "order_line_item",
+            "attributes": {
+                "versionId": "0fa91ce3e96a4bc2be4bd9ce752c3425",
+                "orderId": "371eb95bb7a44b28a6a84683a492e89f",
+                "orderVersionId": "0fa91ce3e96a4bc2be4bd9ce752c3425",
+                "productId": null,
+                "productVersionId": "0fa91ce3e96a4bc2be4bd9ce752c3425",
+                "promotionId": null,
+                "parentId": null,
+                "parentVersionId": "0fa91ce3e96a4bc2be4bd9ce752c3425",
+                "coverId": "354804468dd54a9ea982b468c0b6f292",
+                "identifier": "874375814cd3131bce4d48d5d10a7f8c",
+                "referencedId": "aae557e8e2e6aace7078d41781f88e78",
+                "quantity": 2,
+                "label": "J\u00e4gerschnitzel",
+                "payload": {
+                    "dewa_shop": [
+                        {
+                            "name": "Dip",
+                            "value": [
+                                "Mayonnaise",
+                                "Ketchup"
+                            ]
+                        }
+                    ],
+                    "dewa": [
+                        {
+                            "name": "Dip",
+                            "value": [
+                                "Mayonnaise",
+                                "Ketchup"
+                            ]
+                        }
+                    ],
+                    "stockUnit": 1,
+                    "productNumber": "048",
+                    "customFields": []
+                },
+                "good": true,
+                "removable": true,
+                "stackable": true,
+                "position": 2,
+                "price": {
+                    "unitPrice": 8.0999999999999996447286321199499070644378662109375,
+                    "quantity": 2,
+                    "totalPrice": 16.199999999999999289457264239899814128875732421875,
+                    "calculatedTaxes": [
+                        {
+                            "tax": 1.060000000000000053290705182007513940334320068359375,
+                            "taxRate": 7.0,
+                            "price": 16.199999999999999289457264239899814128875732421875,
+                            "extensions": []
+                        }
+                    ],
+                    "taxRules": [
+                        {
+                            "taxRate": 7.0,
+                            "percentage": 100.0,
+                            "extensions": []
+                        }
+                    ],
+                    "referencePrice": null,
+                    "listPrice": null,
+                    "regulationPrice": null,
+                    "extensions": []
+                },
+                "priceDefinition": null,
+                "unitPrice": 8.0999999999999996447286321199499070644378662109375,
+                "totalPrice": 16.199999999999999289457264239899814128875732421875,
+                "description": "J\u00e4gerschnitzel",
+                "type": "dewa_product",
+                "customFields": null,
+                "createdAt": "2022-10-07T16:59:26.583+00:00",
+                "updatedAt": null,
+                "apiAlias": null
+            },
+            "links": {
+                "self": "https:\/\/dewashop.de\/api\/order-line-item\/fcc9a57d4f0a428bab4a169904d6534e"
+            },
+            "relationships": {
+                "cover": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-line-item\/fcc9a57d4f0a428bab4a169904d6534e\/cover"
+                    }
+                },
+                "order": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-line-item\/fcc9a57d4f0a428bab4a169904d6534e\/order"
+                    }
+                },
+                "product": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-line-item\/fcc9a57d4f0a428bab4a169904d6534e\/product"
+                    }
+                },
+                "promotion": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-line-item\/fcc9a57d4f0a428bab4a169904d6534e\/promotion"
+                    }
+                },
+                "orderDeliveryPositions": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-line-item\/fcc9a57d4f0a428bab4a169904d6534e\/order-delivery-positions"
+                    }
+                },
+                "orderTransactionCaptureRefundPositions": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-line-item\/fcc9a57d4f0a428bab4a169904d6534e\/order-transaction-capture-refund-positions"
+                    }
+                },
+                "parent": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-line-item\/fcc9a57d4f0a428bab4a169904d6534e\/parent"
+                    }
+                },
+                "children": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-line-item\/fcc9a57d4f0a428bab4a169904d6534e\/children"
+                    }
+                }
+            },
+            "meta": null
+        },
+        {
+            "id": "a944d373915942569f84c92a4eab7095",
+            "type": "order_transaction",
+            "attributes": {
+                "versionId": "0fa91ce3e96a4bc2be4bd9ce752c3425",
+                "orderId": "371eb95bb7a44b28a6a84683a492e89f",
+                "orderVersionId": "0fa91ce3e96a4bc2be4bd9ce752c3425",
+                "paymentMethodId": "1b463ee3aff2433e9b420b20356c1d11",
+                "amount": {
+                    "unitPrice": 21.699999999999999289457264239899814128875732421875,
+                    "quantity": 1,
+                    "totalPrice": 21.699999999999999289457264239899814128875732421875,
+                    "calculatedTaxes": [
+                        {
+                            "tax": 1.4199999999999999289457264239899814128875732421875,
+                            "taxRate": 7.0,
+                            "price": 21.699999999999999289457264239899814128875732421875,
+                            "extensions": []
+                        }
+                    ],
+                    "taxRules": [
+                        {
+                            "taxRate": 7.0,
+                            "percentage": 100.0,
+                            "extensions": []
+                        }
+                    ],
+                    "referencePrice": null,
+                    "listPrice": null,
+                    "regulationPrice": null,
+                    "extensions": []
+                },
+                "stateId": "7058516899b14a2dafcad15df438c1c3",
+                "customFields": null,
+                "createdAt": "2022-10-07T16:59:26.583+00:00",
+                "updatedAt": null,
+                "apiAlias": null
+            },
+            "links": {
+                "self": "https:\/\/dewashop.de\/api\/order-transaction\/a944d373915942569f84c92a4eab7095"
+            },
+            "relationships": {
+                "stateMachineState": {
+                    "data": {
+                        "type": "state_machine_state",
+                        "id": "7058516899b14a2dafcad15df438c1c3"
+                    },
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-transaction\/a944d373915942569f84c92a4eab7095\/state-machine-state"
+                    }
+                },
+                "order": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-transaction\/a944d373915942569f84c92a4eab7095\/order"
+                    }
+                },
+                "paymentMethod": {
+                    "data": {
+                        "type": "payment_method",
+                        "id": "1b463ee3aff2433e9b420b20356c1d11"
+                    },
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-transaction\/a944d373915942569f84c92a4eab7095\/payment-method"
+                    }
+                },
+                "captures": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-transaction\/a944d373915942569f84c92a4eab7095\/captures"
+                    }
+                }
+            },
+            "meta": null
+        },
+        {
+            "id": "371eb95bb7a44b28a6a84683a492e89f",
+            "type": "order",
+            "attributes": {
+                "versionId": "0fa91ce3e96a4bc2be4bd9ce752c3425",
+                "autoIncrement": 59,
+                "orderNumber": "10043",
+                "billingAddressId": "886f7008caf94991ae8dd88bc107e253",
+                "billingAddressVersionId": "0fa91ce3e96a4bc2be4bd9ce752c3425",
+                "currencyId": "b7d2554b0ce847cd82f3ac9bd1c0dfca",
+                "languageId": "2fbb5fe2e29a4d70aa5854ce7ce3e20b",
+                "salesChannelId": "6b12610939b84a2f97a8acf31c1d99e4",
+                "orderDateTime": "2022-10-07T16:59:26.555+00:00",
+                "orderDate": "2022-10-07T00:00:00.000+00:00",
+                "price": {
+                    "netPrice": 20.280000000000001136868377216160297393798828125,
+                    "totalPrice": 21.699999999999999289457264239899814128875732421875,
+                    "calculatedTaxes": [
+                        {
+                            "tax": 1.4199999999999999289457264239899814128875732421875,
+                            "taxRate": 7.0,
+                            "price": 21.699999999999999289457264239899814128875732421875,
+                            "extensions": []
+                        }
+                    ],
+                    "taxRules": [
+                        {
+                            "taxRate": 7.0,
+                            "percentage": 100.0,
+                            "extensions": []
+                        }
+                    ],
+                    "positionPrice": 18.699999999999999289457264239899814128875732421875,
+                    "taxStatus": "gross",
+                    "rawTotal": 21.699999999999999289457264239899814128875732421875,
+                    "extensions": []
+                },
+                "amountTotal": 21.699999999999999289457264239899814128875732421875,
+                "amountNet": 20.280000000000001136868377216160297393798828125,
+                "positionPrice": 18.699999999999999289457264239899814128875732421875,
+                "taxStatus": "gross",
+                "shippingCosts": {
+                    "unitPrice": 3.0,
+                    "quantity": 1,
+                    "totalPrice": 3.0,
+                    "calculatedTaxes": [
+                        {
+                            "tax": 0.200000000000000011102230246251565404236316680908203125,
+                            "taxRate": 7.0,
+                            "price": 3.0,
+                            "extensions": []
+                        }
+                    ],
+                    "taxRules": [
+                        {
+                            "taxRate": 7.0,
+                            "percentage": 100.0,
+                            "extensions": []
+                        }
+                    ],
+                    "referencePrice": null,
+                    "listPrice": null,
+                    "regulationPrice": null,
+                    "extensions": []
+                },
+                "shippingTotal": 3.0,
+                "currencyFactor": 1.0,
+                "deepLinkCode": "_3UrvNpjAzmHHrdQj8QNrTFdMQj88mo1",
+                "affiliateCode": null,
+                "campaignCode": null,
+                "customerComment": null,
+                "stateId": "79c39d916b9442af9e43d130c852f58e",
+                "ruleIds": [
+                    "166beac98c23492f8b344f1747d7f915",
+                    "55735e4083c34b32b92597927d2dc036",
+                    "aca79f67697240a480072cfb9788fba5",
+                    "5b0bf37252b9424cb177850056d29584"
+                ],
+                "customFields": null,
+                "createdById": null,
+                "updatedById": null,
+                "itemRounding": {
+                    "decimals": 2,
+                    "interval": 0.01000000000000000020816681711721685132943093776702880859375,
+                    "roundForNet": true,
+                    "extensions": []
+                },
+                "totalRounding": {
+                    "decimals": 2,
+                    "interval": 0.01000000000000000020816681711721685132943093776702880859375,
+                    "roundForNet": true,
+                    "extensions": []
+                },
+                "createdAt": "2022-10-07T16:59:26.584+00:00",
+                "updatedAt": null,
+                "apiAlias": null
+            },
+            "links": {
+                "self": "https:\/\/dewashop.de\/api\/order\/371eb95bb7a44b28a6a84683a492e89f"
+            },
+            "relationships": {
+                "stateMachineState": {
+                    "data": {
+                        "type": "state_machine_state",
+                        "id": "79c39d916b9442af9e43d130c852f58e"
+                    },
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order\/371eb95bb7a44b28a6a84683a492e89f\/state-machine-state"
+                    }
+                },
+                "orderCustomer": {
+                    "data": {
+                        "type": "order_customer",
+                        "id": "b56fd23e23754db2bb571e97939a71c0"
+                    },
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order\/371eb95bb7a44b28a6a84683a492e89f\/order-customer"
+                    }
+                },
+                "currency": {
+                    "data": {
+                        "type": "currency",
+                        "id": "b7d2554b0ce847cd82f3ac9bd1c0dfca"
+                    },
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order\/371eb95bb7a44b28a6a84683a492e89f\/currency"
+                    }
+                },
+                "language": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order\/371eb95bb7a44b28a6a84683a492e89f\/language"
+                    }
+                },
+                "salesChannel": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order\/371eb95bb7a44b28a6a84683a492e89f\/sales-channel"
+                    }
+                },
+                "addresses": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order\/371eb95bb7a44b28a6a84683a492e89f\/addresses"
+                    }
+                },
+                "billingAddress": {
+                    "data": {
+                        "type": "order_address",
+                        "id": "886f7008caf94991ae8dd88bc107e253"
+                    },
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order\/371eb95bb7a44b28a6a84683a492e89f\/billing-address"
+                    }
+                },
+                "deliveries": {
+                    "data": [
+                        {
+                            "type": "order_delivery",
+                            "id": "7216e215ee1f4c2aa1ba0cc97256ac81"
+                        }
+                    ],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order\/371eb95bb7a44b28a6a84683a492e89f\/deliveries"
+                    }
+                },
+                "lineItems": {
+                    "data": [
+                        {
+                            "type": "order_line_item",
+                            "id": "c279a5e322164c8784540bfd3ee767c1"
+                        },
+                        {
+                            "type": "order_line_item",
+                            "id": "fcc9a57d4f0a428bab4a169904d6534e"
+                        }
+                    ],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order\/371eb95bb7a44b28a6a84683a492e89f\/line-items"
+                    }
+                },
+                "transactions": {
+                    "data": [
+                        {
+                            "type": "order_transaction",
+                            "id": "a944d373915942569f84c92a4eab7095"
+                        }
+                    ],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order\/371eb95bb7a44b28a6a84683a492e89f\/transactions"
+                    }
+                },
+                "documents": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order\/371eb95bb7a44b28a6a84683a492e89f\/documents"
+                    }
+                },
+                "tags": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order\/371eb95bb7a44b28a6a84683a492e89f\/tags"
+                    }
+                },
+                "createdBy": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order\/371eb95bb7a44b28a6a84683a492e89f\/created-by"
+                    }
+                },
+                "updatedBy": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order\/371eb95bb7a44b28a6a84683a492e89f\/updated-by"
+                    }
+                }
+            },
+            "meta": null
+        },
+        {
+            "id": "d881e81baa984c0fb01d0e8231e1b285",
+            "type": "dewa_shop_order",
+            "attributes": {
+                "orderId": "371eb95bb7a44b28a6a84683a492e89f",
+                "orderVersionId": "0fa91ce3e96a4bc2be4bd9ce752c3425",
+                "shopId": "c736ca99f0c97abe27218c0882a3952c",
+                "delivererId": null,
+                "locationLat": null,
+                "locationLon": null,
+                "distance": null,
+                "comment": null,
+                "desiredTime": "2022-10-07T17:59:26.000+00:00",
+                "createdAt": "2022-10-07T16:59:26.685+00:00",
+                "updatedAt": null,
+                "apiAlias": null
+            },
+            "links": {
+                "self": "https:\/\/dewashop.de\/api\/dewa-shop-order\/d881e81baa984c0fb01d0e8231e1b285"
+            },
+            "relationships": {
+                "order": {
+                    "data": {
+                        "type": "order",
+                        "id": "371eb95bb7a44b28a6a84683a492e89f"
+                    },
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/dewa-shop-order\/d881e81baa984c0fb01d0e8231e1b285\/order"
+                    }
+                },
+                "shop": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/dewa-shop-order\/d881e81baa984c0fb01d0e8231e1b285\/shop"
+                    }
+                },
+                "deliverer": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/dewa-shop-order\/d881e81baa984c0fb01d0e8231e1b285\/deliverer"
+                    }
+                }
+            },
+            "meta": null
+        },
+        {
+            "id": "2be60be2f9cb48edb06bd1fe3e504e34",
+            "type": "order_customer",
+            "attributes": {
+                "versionId": "0fa91ce3e96a4bc2be4bd9ce752c3425",
+                "customerId": "88d6f16fa3ed477497c6f1b8ff11dc16",
+                "orderId": "79e8e781d9dd4109a68658faa86a8f61",
+                "orderVersionId": "0fa91ce3e96a4bc2be4bd9ce752c3425",
+                "email": "info@moorleiche.com",
+                "salutationId": "29a39c400b874ec282c7b9b2319aabab",
+                "firstName": "Jan-Philipp",
+                "lastName": "Georg",
+                "company": null,
+                "title": null,
+                "vatIds": null,
+                "customerNumber": "10035",
+                "customFields": null,
+                "remoteAddress": "94.134.94.0",
+                "createdAt": "2022-10-09T06:19:19.133+00:00",
+                "updatedAt": null,
+                "apiAlias": null
+            },
+            "links": {
+                "self": "https:\/\/dewashop.de\/api\/order-customer\/2be60be2f9cb48edb06bd1fe3e504e34"
+            },
+            "relationships": {
+                "order": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-customer\/2be60be2f9cb48edb06bd1fe3e504e34\/order"
+                    }
+                },
+                "customer": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-customer\/2be60be2f9cb48edb06bd1fe3e504e34\/customer"
+                    }
+                },
+                "salutation": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-customer\/2be60be2f9cb48edb06bd1fe3e504e34\/salutation"
+                    }
+                }
+            },
+            "meta": null
+        },
+        {
+            "id": "d90dbe82b714438f89302f6aea56a3d1",
+            "type": "order_address",
+            "attributes": {
+                "versionId": "0fa91ce3e96a4bc2be4bd9ce752c3425",
+                "countryId": "9d559041db79491cb641cc02ff9cc9cc",
+                "countryStateId": "7d94cc4f991b4a22a33b327ff68dd02c",
+                "orderId": "79e8e781d9dd4109a68658faa86a8f61",
+                "orderVersionId": "0fa91ce3e96a4bc2be4bd9ce752c3425",
+                "salutationId": "29a39c400b874ec282c7b9b2319aabab",
+                "firstName": "Jan-Philipp",
+                "lastName": "Georg",
+                "street": "Salbeiweg 31",
+                "zipcode": "33100",
+                "city": "Paderborn",
+                "company": null,
+                "department": null,
+                "title": null,
+                "vatId": null,
+                "phoneNumber": null,
+                "additionalAddressLine1": null,
+                "additionalAddressLine2": null,
+                "customFields": null,
+                "createdAt": "2022-10-09T06:19:19.136+00:00",
+                "updatedAt": null,
+                "apiAlias": null
+            },
+            "links": {
+                "self": "https:\/\/dewashop.de\/api\/order-address\/d90dbe82b714438f89302f6aea56a3d1"
+            },
+            "relationships": {
+                "country": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-address\/d90dbe82b714438f89302f6aea56a3d1\/country"
+                    }
+                },
+                "countryState": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-address\/d90dbe82b714438f89302f6aea56a3d1\/country-state"
+                    }
+                },
+                "order": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-address\/d90dbe82b714438f89302f6aea56a3d1\/order"
+                    }
+                },
+                "orderDeliveries": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-address\/d90dbe82b714438f89302f6aea56a3d1\/order-deliveries"
+                    }
+                },
+                "salutation": {
+                    "data": {
+                        "type": "salutation",
+                        "id": "ed643807c9f84cc8b50132ea3ccb1c3b"
+                    },
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-address\/d90dbe82b714438f89302f6aea56a3d1\/salutation"
+                    }
+                }
+            },
+            "meta": null
+        },
+        {
+            "id": "78d2aa20af38597657a4b48cf02f7dcb",
+            "type": "shipping_method",
+            "attributes": {
+                "name": "Selbstabholung",
+                "active": true,
+                "position": 1,
+                "customFields": null,
+                "availabilityRuleId": "166beac98c23492f8b344f1747d7f915",
+                "mediaId": null,
+                "deliveryTimeId": "06c0c250675f4a1da2fb524b3b123ae9",
+                "taxType": "auto",
+                "taxId": null,
+                "description": "Kaufen und abholen",
+                "trackingUrl": null,
+                "createdAt": "2001-02-03T01:02:03.000+00:00",
+                "updatedAt": "2022-10-05T16:11:16.063+00:00",
+                "translated": {
+                    "name": "Selbstabholung",
+                    "customFields": {},
+                    "description": "Kaufen und abholen",
+                    "trackingUrl": null
+                },
+                "apiAlias": null
+            },
+            "links": {
+                "self": "https:\/\/dewashop.de\/api\/shipping-method\/78d2aa20af38597657a4b48cf02f7dcb"
+            },
+            "relationships": {
+                "deliveryTime": {
+                    "data": {
+                        "type": "delivery_time",
+                        "id": "06c0c250675f4a1da2fb524b3b123ae9"
+                    },
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/shipping-method\/78d2aa20af38597657a4b48cf02f7dcb\/delivery-time"
+                    }
+                },
+                "translations": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/shipping-method\/78d2aa20af38597657a4b48cf02f7dcb\/translations"
+                    }
+                },
+                "availabilityRule": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/shipping-method\/78d2aa20af38597657a4b48cf02f7dcb\/availability-rule"
+                    }
+                },
+                "prices": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/shipping-method\/78d2aa20af38597657a4b48cf02f7dcb\/prices"
+                    }
+                },
+                "media": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/shipping-method\/78d2aa20af38597657a4b48cf02f7dcb\/media"
+                    }
+                },
+                "tags": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/shipping-method\/78d2aa20af38597657a4b48cf02f7dcb\/tags"
+                    }
+                },
+                "orderDeliveries": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/shipping-method\/78d2aa20af38597657a4b48cf02f7dcb\/order-deliveries"
+                    }
+                },
+                "salesChannels": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/shipping-method\/78d2aa20af38597657a4b48cf02f7dcb\/sales-channels"
+                    }
+                },
+                "salesChannelDefaultAssignments": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/shipping-method\/78d2aa20af38597657a4b48cf02f7dcb\/sales-channel-default-assignments"
+                    }
+                },
+                "tax": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/shipping-method\/78d2aa20af38597657a4b48cf02f7dcb\/tax"
+                    }
+                }
+            },
+            "meta": null
+        },
+        {
+            "id": "dd91ec1065b04f24bb98c211896c31ea",
+            "type": "order_delivery",
+            "attributes": {
+                "versionId": "0fa91ce3e96a4bc2be4bd9ce752c3425",
+                "orderId": "79e8e781d9dd4109a68658faa86a8f61",
+                "orderVersionId": "0fa91ce3e96a4bc2be4bd9ce752c3425",
+                "shippingOrderAddressId": "d90dbe82b714438f89302f6aea56a3d1",
+                "shippingOrderAddressVersionId": "0fa91ce3e96a4bc2be4bd9ce752c3425",
+                "shippingMethodId": "78d2aa20af38597657a4b48cf02f7dcb",
+                "stateId": "8e16fffe75bf42a0a582ac54a5fd56b2",
+                "trackingCodes": [],
+                "shippingDateEarliest": "2022-10-10T00:00:00.000+00:00",
+                "shippingDateLatest": "2022-10-12T00:00:00.000+00:00",
+                "shippingCosts": {
+                    "unitPrice": 0.0,
+                    "quantity": 1,
+                    "totalPrice": 0.0,
+                    "calculatedTaxes": [
+                        {
+                            "tax": 0.0,
+                            "taxRate": 7.0,
+                            "price": 0.0,
+                            "extensions": []
+                        }
+                    ],
+                    "taxRules": [
+                        {
+                            "taxRate": 7.0,
+                            "percentage": 100.0,
+                            "extensions": []
+                        }
+                    ],
+                    "referencePrice": null,
+                    "listPrice": null,
+                    "regulationPrice": null,
+                    "extensions": []
+                },
+                "customFields": null,
+                "createdAt": "2022-10-09T06:19:19.137+00:00",
+                "updatedAt": "2022-10-22T12:13:10.878+00:00",
+                "apiAlias": null
+            },
+            "links": {
+                "self": "https:\/\/dewashop.de\/api\/order-delivery\/dd91ec1065b04f24bb98c211896c31ea"
+            },
+            "relationships": {
+                "stateMachineState": {
+                    "data": {
+                        "type": "state_machine_state",
+                        "id": "8e16fffe75bf42a0a582ac54a5fd56b2"
+                    },
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-delivery\/dd91ec1065b04f24bb98c211896c31ea\/state-machine-state"
+                    }
+                },
+                "order": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-delivery\/dd91ec1065b04f24bb98c211896c31ea\/order"
+                    }
+                },
+                "shippingOrderAddress": {
+                    "data": {
+                        "type": "order_address",
+                        "id": "d90dbe82b714438f89302f6aea56a3d1"
+                    },
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-delivery\/dd91ec1065b04f24bb98c211896c31ea\/shipping-order-address"
+                    }
+                },
+                "shippingMethod": {
+                    "data": {
+                        "type": "shipping_method",
+                        "id": "78d2aa20af38597657a4b48cf02f7dcb"
+                    },
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-delivery\/dd91ec1065b04f24bb98c211896c31ea\/shipping-method"
+                    }
+                },
+                "positions": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-delivery\/dd91ec1065b04f24bb98c211896c31ea\/positions"
+                    }
+                }
+            },
+            "meta": null
+        },
+        {
+            "id": "51f1dac634104def8fb121daa0ebf0d1",
+            "type": "order_line_item",
+            "attributes": {
+                "versionId": "0fa91ce3e96a4bc2be4bd9ce752c3425",
+                "orderId": "79e8e781d9dd4109a68658faa86a8f61",
+                "orderVersionId": "0fa91ce3e96a4bc2be4bd9ce752c3425",
+                "productId": null,
+                "productVersionId": "0fa91ce3e96a4bc2be4bd9ce752c3425",
+                "promotionId": null,
+                "parentId": null,
+                "parentVersionId": "0fa91ce3e96a4bc2be4bd9ce752c3425",
+                "coverId": "806c2527a21b4a30b416a7e5022f57c2",
+                "identifier": "01acc7180c8831461781c3b8b24f86db",
+                "referencedId": "39852f9eed1fc79fd983217efbe78d9e",
+                "quantity": 1,
+                "label": "Pizza Salami",
+                "payload": {
+                    "dewa_shop": [
+                        {
+                            "name": "Gr\u00f6\u00dfe",
+                            "value": "\u00d8 60cm"
+                        },
+                        {
+                            "name": "Teigvariante",
+                            "value": [
+                                "Weizen"
+                            ]
+                        },
+                        {
+                            "name": "Pizzaso\u00dfe",
+                            "value": [
+                                "Tomatenso\u00dfe"
+                            ]
+                        },
+                        {
+                            "name": "Vegetarische Zutaten",
+                            "value": [
+                                "Champignons",
+                                "Artischocken"
+                            ]
+                        }
+                    ],
+                    "dewa": [
+                        {
+                            "name": "Gr\u00f6\u00dfe",
+                            "value": "\u00d8 60cm"
+                        },
+                        {
+                            "name": "Teigvariante",
+                            "value": [
+                                "Weizen"
+                            ]
+                        },
+                        {
+                            "name": "Pizzaso\u00dfe",
+                            "value": [
+                                "Tomatenso\u00dfe"
+                            ]
+                        },
+                        {
+                            "name": "Vegetarische Zutaten",
+                            "value": [
+                                "Champignons",
+                                "Artischocken"
+                            ]
+                        }
+                    ],
+                    "stockUnit": 0.03536780751424438429264540673102601431310176849365234375,
+                    "productNumber": "001",
+                    "customFields": []
+                },
+                "good": true,
+                "removable": true,
+                "stackable": true,
+                "position": 1,
+                "price": {
+                    "unitPrice": 25.5,
+                    "quantity": 1,
+                    "totalPrice": 25.5,
+                    "calculatedTaxes": [
+                        {
+                            "tax": 1.6699999999999999289457264239899814128875732421875,
+                            "taxRate": 7.0,
+                            "price": 25.5,
+                            "extensions": []
+                        }
+                    ],
+                    "taxRules": [
+                        {
+                            "taxRate": 7.0,
+                            "percentage": 100.0,
+                            "extensions": []
+                        }
+                    ],
+                    "referencePrice": null,
+                    "listPrice": null,
+                    "regulationPrice": null,
+                    "extensions": []
+                },
+                "priceDefinition": null,
+                "unitPrice": 25.5,
+                "totalPrice": 25.5,
+                "description": "Pizza Salami",
+                "type": "dewa_product",
+                "customFields": null,
+                "createdAt": "2022-10-09T06:19:19.138+00:00",
+                "updatedAt": null,
+                "apiAlias": null
+            },
+            "links": {
+                "self": "https:\/\/dewashop.de\/api\/order-line-item\/51f1dac634104def8fb121daa0ebf0d1"
+            },
+            "relationships": {
+                "cover": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-line-item\/51f1dac634104def8fb121daa0ebf0d1\/cover"
+                    }
+                },
+                "order": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-line-item\/51f1dac634104def8fb121daa0ebf0d1\/order"
+                    }
+                },
+                "product": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-line-item\/51f1dac634104def8fb121daa0ebf0d1\/product"
+                    }
+                },
+                "promotion": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-line-item\/51f1dac634104def8fb121daa0ebf0d1\/promotion"
+                    }
+                },
+                "orderDeliveryPositions": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-line-item\/51f1dac634104def8fb121daa0ebf0d1\/order-delivery-positions"
+                    }
+                },
+                "orderTransactionCaptureRefundPositions": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-line-item\/51f1dac634104def8fb121daa0ebf0d1\/order-transaction-capture-refund-positions"
+                    }
+                },
+                "parent": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-line-item\/51f1dac634104def8fb121daa0ebf0d1\/parent"
+                    }
+                },
+                "children": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-line-item\/51f1dac634104def8fb121daa0ebf0d1\/children"
+                    }
+                }
+            },
+            "meta": null
+        },
+        {
+            "id": "de78201677ea443799ac5d3fc21df83a",
+            "type": "order_transaction",
+            "attributes": {
+                "versionId": "0fa91ce3e96a4bc2be4bd9ce752c3425",
+                "orderId": "79e8e781d9dd4109a68658faa86a8f61",
+                "orderVersionId": "0fa91ce3e96a4bc2be4bd9ce752c3425",
+                "paymentMethodId": "1b463ee3aff2433e9b420b20356c1d11",
+                "amount": {
+                    "unitPrice": 25.5,
+                    "quantity": 1,
+                    "totalPrice": 25.5,
+                    "calculatedTaxes": [
+                        {
+                            "tax": 1.6699999999999999289457264239899814128875732421875,
+                            "taxRate": 7.0,
+                            "price": 25.5,
+                            "extensions": []
+                        }
+                    ],
+                    "taxRules": [
+                        {
+                            "taxRate": 7.0,
+                            "percentage": 100.0,
+                            "extensions": []
+                        }
+                    ],
+                    "referencePrice": null,
+                    "listPrice": null,
+                    "regulationPrice": null,
+                    "extensions": []
+                },
+                "stateId": "7058516899b14a2dafcad15df438c1c3",
+                "customFields": null,
+                "createdAt": "2022-10-09T06:19:19.139+00:00",
+                "updatedAt": null,
+                "apiAlias": null
+            },
+            "links": {
+                "self": "https:\/\/dewashop.de\/api\/order-transaction\/de78201677ea443799ac5d3fc21df83a"
+            },
+            "relationships": {
+                "stateMachineState": {
+                    "data": {
+                        "type": "state_machine_state",
+                        "id": "7058516899b14a2dafcad15df438c1c3"
+                    },
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-transaction\/de78201677ea443799ac5d3fc21df83a\/state-machine-state"
+                    }
+                },
+                "order": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-transaction\/de78201677ea443799ac5d3fc21df83a\/order"
+                    }
+                },
+                "paymentMethod": {
+                    "data": {
+                        "type": "payment_method",
+                        "id": "1b463ee3aff2433e9b420b20356c1d11"
+                    },
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-transaction\/de78201677ea443799ac5d3fc21df83a\/payment-method"
+                    }
+                },
+                "captures": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order-transaction\/de78201677ea443799ac5d3fc21df83a\/captures"
+                    }
+                }
+            },
+            "meta": null
+        },
+        {
+            "id": "79e8e781d9dd4109a68658faa86a8f61",
+            "type": "order",
+            "attributes": {
+                "versionId": "0fa91ce3e96a4bc2be4bd9ce752c3425",
+                "autoIncrement": 60,
+                "orderNumber": "10044",
+                "billingAddressId": "d90dbe82b714438f89302f6aea56a3d1",
+                "billingAddressVersionId": "0fa91ce3e96a4bc2be4bd9ce752c3425",
+                "currencyId": "b7d2554b0ce847cd82f3ac9bd1c0dfca",
+                "languageId": "2fbb5fe2e29a4d70aa5854ce7ce3e20b",
+                "salesChannelId": "6b12610939b84a2f97a8acf31c1d99e4",
+                "orderDateTime": "2022-10-09T06:19:19.104+00:00",
+                "orderDate": "2022-10-09T00:00:00.000+00:00",
+                "price": {
+                    "netPrice": 23.8299999999999982946974341757595539093017578125,
+                    "totalPrice": 25.5,
+                    "calculatedTaxes": [
+                        {
+                            "tax": 1.6699999999999999289457264239899814128875732421875,
+                            "taxRate": 7.0,
+                            "price": 25.5,
+                            "extensions": []
+                        }
+                    ],
+                    "taxRules": [
+                        {
+                            "taxRate": 7.0,
+                            "percentage": 100.0,
+                            "extensions": []
+                        }
+                    ],
+                    "positionPrice": 25.5,
+                    "taxStatus": "gross",
+                    "rawTotal": 25.5,
+                    "extensions": []
+                },
+                "amountTotal": 25.5,
+                "amountNet": 23.8299999999999982946974341757595539093017578125,
+                "positionPrice": 25.5,
+                "taxStatus": "gross",
+                "shippingCosts": {
+                    "unitPrice": 0.0,
+                    "quantity": 1,
+                    "totalPrice": 0.0,
+                    "calculatedTaxes": [
+                        {
+                            "tax": 0.0,
+                            "taxRate": 7.0,
+                            "price": 0.0,
+                            "extensions": []
+                        }
+                    ],
+                    "taxRules": [
+                        {
+                            "taxRate": 7.0,
+                            "percentage": 100.0,
+                            "extensions": []
+                        }
+                    ],
+                    "referencePrice": null,
+                    "listPrice": null,
+                    "regulationPrice": null,
+                    "extensions": []
+                },
+                "shippingTotal": 0.0,
+                "currencyFactor": 1.0,
+                "deepLinkCode": "uYBmlGcuspveGyPl4VaEQHu-VaEadhQJ",
+                "affiliateCode": null,
+                "campaignCode": null,
+                "customerComment": null,
+                "stateId": "30a019dcff6842e9b764bc61c0d9d343",
+                "ruleIds": [
+                    "166beac98c23492f8b344f1747d7f915",
+                    "55735e4083c34b32b92597927d2dc036",
+                    "aca79f67697240a480072cfb9788fba5",
+                    "248726bf920447aa9b51c0bbdcaa5693",
+                    "5b0bf37252b9424cb177850056d29584"
+                ],
+                "customFields": null,
+                "createdById": null,
+                "updatedById": "13647d90ac3845748c00343d56137125",
+                "itemRounding": {
+                    "decimals": 2,
+                    "interval": 0.01000000000000000020816681711721685132943093776702880859375,
+                    "roundForNet": true,
+                    "extensions": []
+                },
+                "totalRounding": {
+                    "decimals": 2,
+                    "interval": 0.01000000000000000020816681711721685132943093776702880859375,
+                    "roundForNet": true,
+                    "extensions": []
+                },
+                "createdAt": "2022-10-09T06:19:19.140+00:00",
+                "updatedAt": "2022-10-22T12:13:08.813+00:00",
+                "apiAlias": null
+            },
+            "links": {
+                "self": "https:\/\/dewashop.de\/api\/order\/79e8e781d9dd4109a68658faa86a8f61"
+            },
+            "relationships": {
+                "stateMachineState": {
+                    "data": {
+                        "type": "state_machine_state",
+                        "id": "30a019dcff6842e9b764bc61c0d9d343"
+                    },
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order\/79e8e781d9dd4109a68658faa86a8f61\/state-machine-state"
+                    }
+                },
+                "orderCustomer": {
+                    "data": {
+                        "type": "order_customer",
+                        "id": "2be60be2f9cb48edb06bd1fe3e504e34"
+                    },
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order\/79e8e781d9dd4109a68658faa86a8f61\/order-customer"
+                    }
+                },
+                "currency": {
+                    "data": {
+                        "type": "currency",
+                        "id": "b7d2554b0ce847cd82f3ac9bd1c0dfca"
+                    },
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order\/79e8e781d9dd4109a68658faa86a8f61\/currency"
+                    }
+                },
+                "language": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order\/79e8e781d9dd4109a68658faa86a8f61\/language"
+                    }
+                },
+                "salesChannel": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order\/79e8e781d9dd4109a68658faa86a8f61\/sales-channel"
+                    }
+                },
+                "addresses": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order\/79e8e781d9dd4109a68658faa86a8f61\/addresses"
+                    }
+                },
+                "billingAddress": {
+                    "data": {
+                        "type": "order_address",
+                        "id": "d90dbe82b714438f89302f6aea56a3d1"
+                    },
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order\/79e8e781d9dd4109a68658faa86a8f61\/billing-address"
+                    }
+                },
+                "deliveries": {
+                    "data": [
+                        {
+                            "type": "order_delivery",
+                            "id": "dd91ec1065b04f24bb98c211896c31ea"
+                        }
+                    ],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order\/79e8e781d9dd4109a68658faa86a8f61\/deliveries"
+                    }
+                },
+                "lineItems": {
+                    "data": [
+                        {
+                            "type": "order_line_item",
+                            "id": "51f1dac634104def8fb121daa0ebf0d1"
+                        }
+                    ],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order\/79e8e781d9dd4109a68658faa86a8f61\/line-items"
+                    }
+                },
+                "transactions": {
+                    "data": [
+                        {
+                            "type": "order_transaction",
+                            "id": "de78201677ea443799ac5d3fc21df83a"
+                        }
+                    ],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order\/79e8e781d9dd4109a68658faa86a8f61\/transactions"
+                    }
+                },
+                "documents": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order\/79e8e781d9dd4109a68658faa86a8f61\/documents"
+                    }
+                },
+                "tags": {
+                    "data": [],
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order\/79e8e781d9dd4109a68658faa86a8f61\/tags"
+                    }
+                },
+                "createdBy": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order\/79e8e781d9dd4109a68658faa86a8f61\/created-by"
+                    }
+                },
+                "updatedBy": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/order\/79e8e781d9dd4109a68658faa86a8f61\/updated-by"
+                    }
+                }
+            },
+            "meta": null
+        },
+        {
+            "id": "f08f9773ae1e4f1d9e5b16468e1a1ed3",
+            "type": "dewa_shop_order",
+            "attributes": {
+                "orderId": "79e8e781d9dd4109a68658faa86a8f61",
+                "orderVersionId": "0fa91ce3e96a4bc2be4bd9ce752c3425",
+                "shopId": "c736ca99f0c97abe27218c0882a3952c",
+                "delivererId": null,
+                "locationLat": 51.7203999999999979308995534665882587432861328125,
+                "locationLon": 8.7988400000000002165734258596785366535186767578125,
+                "distance": 3.037409999999999943298689686344005167484283447265625,
+                "comment": null,
+                "desiredTime": "2022-10-22T12:43:07.543+00:00",
+                "createdAt": "2022-10-09T06:19:19.243+00:00",
+                "updatedAt": "2022-10-22T12:13:07.545+00:00",
+                "apiAlias": null
+            },
+            "links": {
+                "self": "https:\/\/dewashop.de\/api\/dewa-shop-order\/f08f9773ae1e4f1d9e5b16468e1a1ed3"
+            },
+            "relationships": {
+                "order": {
+                    "data": {
+                        "type": "order",
+                        "id": "79e8e781d9dd4109a68658faa86a8f61"
+                    },
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/dewa-shop-order\/f08f9773ae1e4f1d9e5b16468e1a1ed3\/order"
+                    }
+                },
+                "shop": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/dewa-shop-order\/f08f9773ae1e4f1d9e5b16468e1a1ed3\/shop"
+                    }
+                },
+                "deliverer": {
+                    "data": null,
+                    "links": {
+                        "related": "https:\/\/dewashop.de\/api\/dewa-shop-order\/f08f9773ae1e4f1d9e5b16468e1a1ed3\/deliverer"
+                    }
+                }
+            },
+            "meta": null
+        }
+    ],
+    "links": {
+        "self": "https:\/\/dewashop.de\/api\/search\/dewa-shop"
+    },
+    "meta": {
+        "totalCountMode": 0,
+        "total": 1
+    },
+    "aggregations": []
+}
