@@ -50,7 +50,7 @@ class OrderHistoryBloc extends Bloc<OrderHistoryEvent, OrderHistoryState> {
 
     on<SetDateRange>((event, emit) {
       emit(state.copyWith(startDate: event.from, endDate: event.to));
-      add(RefreshOrderHistory());
+      add(const RefreshOrderHistory());
     });
 
     on<PrintCurrentHistoryState>((event, emit) async {
@@ -194,7 +194,7 @@ class OrderHistoryBloc extends Bloc<OrderHistoryEvent, OrderHistoryState> {
         ),
       );
 
-      add(RefreshOrderHistory());
+      add(const RefreshOrderHistory());
     });
   }
 
@@ -237,15 +237,15 @@ class OrderHistoryBloc extends Bloc<OrderHistoryEvent, OrderHistoryState> {
 
   void onPrintBill(String orderId) => add(PrintBill(orderId));
 
-  void onPrintCurrentHistory() => add(PrintCurrentHistoryState());
+  void onPrintCurrentHistory() => add(const PrintCurrentHistoryState());
 
-  void onRefresh() => add(RefreshOrderHistory());
+  void onRefresh() => add(const RefreshOrderHistory());
 
   void onSetDateRange(DateTime from, DateTime to) {
     add(SetDateRange(from: from, to: to));
   }
 
-  void onSwitchRangeMode() => add(SwitchRangeMode());
+  void onSwitchRangeMode() => add(const SwitchRangeMode());
 
   @override
   void onTransition(
@@ -270,7 +270,7 @@ class OrderHistoryState {
   final bool showRange;
   final String? error;
 
-  OrderHistoryState({
+  const OrderHistoryState({
     this.orders = const [],
     this.startDate,
     this.endDate,
