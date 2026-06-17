@@ -103,13 +103,13 @@ class DeliverywareRepository {
         Association(
           name: 'shopOrders',
           filter: [
-            Filter(
+            const Filter(
               field: 'order.versionId',
               value: EnvironmentConfig.liveVersion,
               type: 'equals',
             ),
             Filter(type: 'multi', operator: 'OR', queries: [
-              Filter(
+              const Filter(
                 field: 'order.transactions.stateMachineState.technicalName',
                 value: 'paid',
                 type: 'equals',
@@ -121,12 +121,12 @@ class DeliverywareRepository {
                 ),
             ]),
             if (!showCompletedOnly)
-              Filter(
+              const Filter(
                 field: 'order.stateMachineState.technicalName',
                 value: 'open|in_progress',
               )
             else
-              Filter(
+              const Filter(
                 field: 'order.stateMachineState.technicalName',
                 value: 'completed',
               ),

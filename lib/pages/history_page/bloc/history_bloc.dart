@@ -137,7 +137,6 @@ class OrderHistoryBloc extends Bloc<OrderHistoryEvent, OrderHistoryState> {
         return;
       }
 
-      // ignore: deprecated_member_use_from_same_package
       final hasPrinted = await BillPrintJob(order, shop).print();
 
       debugPrint('hasPrinted: $hasPrinted');
@@ -154,7 +153,6 @@ class OrderHistoryBloc extends Bloc<OrderHistoryEvent, OrderHistoryState> {
 
         emit(state.copyWith(isPrinting: true));
 
-        // ignore: deprecated_member_use_from_same_package
         final hasPrintedSecond = await BillPrintJob(order, shop).print();
 
         debugPrint('hasPrintedSecond: $hasPrintedSecond');

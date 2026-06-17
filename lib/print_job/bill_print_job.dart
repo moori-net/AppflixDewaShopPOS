@@ -8,7 +8,6 @@ import '/models/shopware/attributes/shipping_method.dart';
 import '/util.dart';
 import 'print_job.dart';
 
-@Deprecated('Check if await is mandatory')
 class BillPrintJob extends PrintJob {
   final FullOrder order;
   final DewaShop shop;
