@@ -1,11 +1,18 @@
-name: Release on version change
+name: Release on Flutter version change
 
 on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Optional: Version aus pubspec.yaml verwenden, leer lassen"
+        required: false
+        type: string
+
   push:
     branches:
       - main
     paths:
-      - package.json
+      - pubspec.yaml
 
 permissions:
   contents: write
