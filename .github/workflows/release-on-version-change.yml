@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       version:
-        description: "Optional: Version aus pubspec.yaml verwenden, leer lassen"
+        description: "Optional: Version manuell angeben, z. B. 6.7.3+4. Leer lassen = pubspec.yaml verwenden"
         required: false
         type: string
 
@@ -19,6 +19,7 @@ permissions:
 
 jobs:
   release:
+    name: Build and create release
     runs-on: ubuntu-latest
 
     steps:
@@ -27,88 +28,115 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Check whether pubspec version changed
+      - name: Read version
+        id: version
+        run: |
+          if [ -n "${{ github.event.inputs.version }}" ]; then
+            NEW_VERSION="${{ github.event.inputs.version }}"
+          else
+            NEW_VERSION=$(grep '^version:' pubspec.yaml | sed 's/version:[[:space:]]*//')
+          fi
+
+          VERSION_NAME=$(echo "$NEW_VERSION" | cut -d'+' -f1)
+          BUILD_NUMBER=$(echo "$NEW_VERSION" | cut -d'+' -f2)
+
+          if [ -z "$VERSION_NAME" ] || [ -z "$BUILD_NUMBER" ]; then
+            echo "Invalid version format: $NEW_VERSION"
+            echo "Expected format: 6.7.2+3"
+            exit 1
+          fi
+
+          TAG="v${VERSION_NAME}-build.${BUILD_NUMBER}"
+
+          echo "version=$NEW_VERSION" >> "$GITHUB_OUTPUT"
+          echo "version_name=$VERSION_NAME" >> "$GITHUB_OUTPUT"
+          echo "build_number=$BUILD_NUMBER" >> "$GITHUB_OUTPUT"
+          echo "tag=$TAG" >> "$GITHUB_OUTPUT"
+
+          echo "Version: $NEW_VERSION"
+          echo "Version name: $VERSION_NAME"
+          echo "Build number: $BUILD_NUMBER"
+          echo "Tag: $TAG"
+
+      - name: Check if version changed on push
+        if: github.event_name == 'push'
         id: version_changed
         run: |
-          OLD_VERSION=$(git show HEAD~1:pubspec.yaml | grep '^version:' | sed 's/version:[[:space:]]*//')
-          NEW_VERSION=$(grep '^version:' pubspec.yaml | sed 's/version:[[:space:]]*//')
+          OLD_VERSION=$(git show HEAD~1:pubspec.yaml | grep '^version:' | sed 's/version:[[:space:]]*//' || true)
+          NEW_VERSION="${{ steps.version.outputs.version }}"
 
-          echo "old=$OLD_VERSION"
-          echo "new=$NEW_VERSION"
+          echo "Old version: $OLD_VERSION"
+          echo "New version: $NEW_VERSION"
 
           if [ "$OLD_VERSION" = "$NEW_VERSION" ]; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
             echo "changed=true" >> "$GITHUB_OUTPUT"
-            echo "version=$NEW_VERSION" >> "$GITHUB_OUTPUT"
-            echo "tag=v$NEW_VERSION" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Stop if version did not change
-        if: steps.version_changed.outputs.changed != 'true'
+      - name: Stop if pubspec.yaml changed but version stayed the same
+        if: github.event_name == 'push' && steps.version_changed.outputs.changed != 'true'
         run: |
-          echo "pubspec.yaml changed, but version stayed the same. No release needed."
+          echo "pubspec.yaml changed, but the version stayed the same. No release created."
+          exit 0
 
-      - name: Stop if tag already exists
-        if: steps.version_changed.outputs.changed == 'true'
+      - name: Check if tag already exists
         run: |
-          if git rev-parse "${{ steps.version_changed.outputs.tag }}" >/dev/null 2>&1; then
-            echo "Tag ${{ steps.version_changed.outputs.tag }} already exists. Nothing to release."
+          git fetch --tags
+
+          if git rev-parse "${{ steps.version.outputs.tag }}" >/dev/null 2>&1; then
+            echo "Tag ${{ steps.version.outputs.tag }} already exists. Release already exists or was already built."
             exit 1
           fi
 
       - name: Setup Java
-        if: steps.version_changed.outputs.changed == 'true'
         uses: actions/setup-java@v4
         with:
           distribution: temurin
           java-version: 17
 
       - name: Setup Flutter
-        if: steps.version_changed.outputs.changed == 'true'
         uses: subosito/flutter-action@v2
         with:
           flutter-version: "3.7.12"
           channel: stable
           cache: true
 
+      - name: Show Flutter version
+        run: flutter --version
+
       - name: Install dependencies
-        if: steps.version_changed.outputs.changed == 'true'
         run: flutter pub get
 
-      - name: Analyze
-        if: steps.version_changed.outputs.changed == 'true'
+      - name: Analyze project
         run: flutter analyze
 
       - name: Run tests
-        if: steps.version_changed.outputs.changed == 'true'
         run: flutter test
 
       - name: Build release APK
-        if: steps.version_changed.outputs.changed == 'true'
         run: flutter build apk --release
 
-      - name: Rename APK
-        if: steps.version_changed.outputs.changed == 'true'
+      - name: Prepare release files
         run: |
           mkdir -p release
+
           cp build/app/outputs/flutter-apk/app-release.apk \
-             release/dewa_app-${{ steps.version_changed.outputs.version }}.apk
+             release/dewa_app-${{ steps.version.outputs.version }}.apk
 
       - name: Create git tag
-        if: steps.version_changed.outputs.changed == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git tag "${{ steps.version_changed.outputs.tag }}"
-          git push origin "${{ steps.version_changed.outputs.tag }}"
+
+          git tag "${{ steps.version.outputs.tag }}"
+          git push origin "${{ steps.version.outputs.tag }}"
 
       - name: Create GitHub release
-        if: steps.version_changed.outputs.changed == 'true'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh release create "${{ steps.version_changed.outputs.tag }}" \
+          gh release create "${{ steps.version.outputs.tag }}" \
             release/*.apk \
-            --title "Release ${{ steps.version_changed.outputs.tag }}" \
-            --generate-notes
+            --title "Release ${{ steps.version.outputs.version }}" \
+            --notes "Flutter release build for version ${{ steps.version.outputs.version }}"
