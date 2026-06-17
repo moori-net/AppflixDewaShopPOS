@@ -1,3 +1,5 @@
+import '/utils/json_util.dart';
+
 import '../hours.dart';
 import 'attributes.dart';
 
@@ -76,105 +78,97 @@ class DewaShop extends Attributes {
     DateTime? updatedAt,
   }) : super(createdAt: createdAt, updatedAt: updatedAt);
 
-  factory DewaShop.fromJson(Map<String, dynamic> map) => DewaShop(
-    active: map['active'] ?? false,
-    autoLocation: map['autoLocation'] ?? false,
-    city: map['city'],
-    collectActive: map['collectActive'] ?? false,
-    countryId: map['countryId'],
-    deliveryActive: map['deliveryActive'] ?? false,
-    deliveryHours: map['deliveryHours'] is List
-        ? List<Hours>.from(
-      map['deliveryHours'].map((x) => Hours.fromJson(x)),
-    )
-        : const [],
-    deliveryPrice: map['deliveryPrice'],
-    deliveryTime: map['deliveryTime'],
-    deliveryType: map['deliveryType'],
-    email: map['email'],
-    executiveDirector: map['executiveDirector'],
-    isDefault: map['isDefault'] ?? false,
-    isLimit: map['isLimit'] ?? false,
-    isOpen: map['isOpen'] ?? false,
-    limitAmount: map['limitAmount'],
-    limitInterval: map['limitInterval'],
-    limitRule: map['limitRule'],
-    limitedAt: map['limitedAt'] != null &&
-        map['limitedAt'].toString().isNotEmpty
-        ? DateTime.parse(map['limitedAt'])
-        : null,
-    locationLat: map['locationLat'] != null
-        ? (map['locationLat'] as num).toDouble()
-        : null,
-    locationLon: map['locationLon'] != null
-        ? (map['locationLon'] as num).toDouble()
-        : null,
-    maxRadius: map['maxRadius'],
-    mediaId: map['mediaId'],
-    minOrderValue: map['minOrderValue'],
-    name: map['name'] ?? '',
-    openingHours: map['openingHours'] is List
-        ? List<Hours>.from(
-      map['openingHours'].map((x) => Hours.fromJson(x)),
-    )
-        : const [],
-    phoneNumber: map['phoneNumber'],
-    preparationTime: map['preparationTime'],
-    searchPortalActive: map['searchPortalActive'] ?? false,
-    shopCategories: map['shopCategories'] is List
-        ? List<String>.from(map['shopCategories'].map((e) => e.toString()))
-        : const [],
-    street: map['street'],
-    streetNumber: map['streetNumber'],
-    timeZone: map['timeZone'],
-    zipCode: map['zipCode'] ?? map['zipcode'],
-    createdAt: map['createdAt'] != null
-        ? DateTime.parse(map['createdAt'])
-        : null,
-    updatedAt: map['updatedAt'] != null
-        ? DateTime.parse(map['updatedAt'])
-        : null,
-  );
+  factory DewaShop.fromJson(dynamic json) {
+    final map = asMap(json);
+
+    return DewaShop(
+      active: asBool(map['active']),
+      autoLocation: asBool(map['autoLocation']),
+      city: asStringOrNull(map['city']),
+      collectActive: asBool(map['collectActive']),
+      countryId: asStringOrNull(map['countryId']),
+      deliveryActive: asBool(map['deliveryActive']),
+      deliveryHours: asTypedList(
+        map['deliveryHours'],
+            (item) => Hours.fromJson(asMap(item)),
+      ),
+      deliveryPrice: asNumOrNull(map['deliveryPrice']),
+      deliveryTime: asNumOrNull(map['deliveryTime']),
+      deliveryType: asStringOrNull(map['deliveryType']),
+      email: asStringOrNull(map['email']),
+      executiveDirector: asStringOrNull(map['executiveDirector']),
+      isDefault: asBool(map['isDefault']),
+      isLimit: asBool(map['isLimit']),
+      isOpen: asBool(map['isOpen']),
+      limitAmount: asNumOrNull(map['limitAmount']),
+      limitInterval: asStringOrNull(map['limitInterval']),
+      limitRule: asStringOrNull(map['limitRule']),
+      limitedAt: asDateTimeOrNull(map['limitedAt']),
+      locationLat: asDoubleOrNull(map['locationLat']),
+      locationLon: asDoubleOrNull(map['locationLon']),
+      maxRadius: asNumOrNull(map['maxRadius']),
+      mediaId: asStringOrNull(map['mediaId']),
+      minOrderValue: asNumOrNull(map['minOrderValue']),
+      name: asString(map['name']),
+      openingHours: asTypedList(
+        map['openingHours'],
+            (item) => Hours.fromJson(asMap(item)),
+      ),
+      phoneNumber: asStringOrNull(map['phoneNumber']),
+      preparationTime: asNumOrNull(map['preparationTime']),
+      searchPortalActive: asBool(map['searchPortalActive']),
+      shopCategories: asTypedList(
+        map['shopCategories'],
+            (item) => item.toString(),
+      ),
+      street: asStringOrNull(map['street']),
+      streetNumber: asStringOrNull(map['streetNumber']),
+      timeZone: asStringOrNull(map['timeZone']),
+      zipCode: asStringOrNull(map['zipCode'] ?? map['zipcode']),
+      createdAt: asDateTimeOrNull(map['createdAt']),
+      updatedAt: asDateTimeOrNull(map['updatedAt']),
+    );
+  }
 
   @override
   Map<String, dynamic> toJson() => {
-        'name': name,
-        'isOpen': isOpen,
-        'active': active,
-        'deliveryActive': deliveryActive,
-        'collectActive': collectActive,
-        'isDefault': isDefault,
-        'autoLocation': autoLocation,
-        'city': city,
-        'countryId': countryId,
-        //'deliveryHours': List<Hours>.from(deliveryHours.map((x) => x.toJson())),
-        'deliveryPrice': deliveryPrice,
-        'deliveryTime': deliveryTime,
-        'deliveryType': deliveryType,
-        'email': email,
-        'executiveDirector': executiveDirector,
-        'isLimit': isLimit,
-        'limitAmount': limitAmount,
-        'limitInterval': limitInterval,
-        'limitRule': limitRule,
-        'limitedAt': limitedAt?.toIso8601String(),
-        'locationLat': locationLat,
-        'locationLon': locationLon,
-        'maxRadius': maxRadius,
-        'mediaId': mediaId,
-        'minOrderValue': minOrderValue,
-        //'openingHours': List<Hours>.from(openingHours.map((x) => x.toJson())),
-        'phoneNumber': phoneNumber,
-        'preparationTime': preparationTime,
-        'searchPortalActive': searchPortalActive,
-        'shopCategories': List<String>.from(shopCategories),
-        'street': street,
-        'streetNumber': streetNumber,
-        'timeZone': timeZone,
-        'zipCode': zipCode,
-        'createdAt': createdAt?.toIso8601String(),
-        'updatedAt': updatedAt?.toIso8601String(),
-      };
+    'name': name,
+    'isOpen': isOpen,
+    'active': active,
+    'deliveryActive': deliveryActive,
+    'collectActive': collectActive,
+    'isDefault': isDefault,
+    'autoLocation': autoLocation,
+    'city': city,
+    'countryId': countryId,
+    'deliveryHours': deliveryHours.map((x) => x.toJson()).toList(),
+    'deliveryPrice': deliveryPrice,
+    'deliveryTime': deliveryTime,
+    'deliveryType': deliveryType,
+    'email': email,
+    'executiveDirector': executiveDirector,
+    'isLimit': isLimit,
+    'limitAmount': limitAmount,
+    'limitInterval': limitInterval,
+    'limitRule': limitRule,
+    'limitedAt': limitedAt?.toIso8601String(),
+    'locationLat': locationLat,
+    'locationLon': locationLon,
+    'maxRadius': maxRadius,
+    'mediaId': mediaId,
+    'minOrderValue': minOrderValue,
+    'openingHours': openingHours.map((x) => x.toJson()).toList(),
+    'phoneNumber': phoneNumber,
+    'preparationTime': preparationTime,
+    'searchPortalActive': searchPortalActive,
+    'shopCategories': List<String>.from(shopCategories),
+    'street': street,
+    'streetNumber': streetNumber,
+    'timeZone': timeZone,
+    'zipcode': zipCode,
+    'createdAt': createdAt?.toIso8601String(),
+    'updatedAt': updatedAt?.toIso8601String(),
+  };
 
   @override
   String toString() => 'DewaShop(${toJson()})';
